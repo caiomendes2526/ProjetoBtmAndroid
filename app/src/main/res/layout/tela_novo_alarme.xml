@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_background"
+    tools:context=".Activitys.TelaNovoAlarme">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/txtAlarmeAlta"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="Alarme Alta"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#FF0000"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bg_edittext_normal"
+                android:inputType="number"
+                android:digits="0123456789"
+                />
+
+            <EditText
+                android:id="@+id/txtAlarmeBaixa"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="Alarme Baixa"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#FF0000"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/bg_edittext_normal"
+                android:inputType="number"
+                android:digits="0123456789"
+                />
+
+            <Button
+                android:id="@+id/btnAlarme"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Alterar alarmes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:backgroundTint="#0000FF"
+                android:background="@drawable/bg_button_normal"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

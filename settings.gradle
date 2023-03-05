@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+
+        maven {
+            url "https://repo.eclipse.org/content/repositories/paho-releases/"
+        }
+
+    }
+}
+rootProject.name = "Tratamento Termico"
+include ':app'

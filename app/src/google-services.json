@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "339885328410",
+    "project_id": "projeto-forno-f61d0",
+    "storage_bucket": "projeto-forno-f61d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339885328410:android:1692ed13d214fc9d5ca9a3",
+        "android_client_info": {
+          "package_name": "com.caio.mendes.tratamentotermico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339885328410-55i0el7qvodkauhd4o9gr3b1ajsngnfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJneL-_7WMWOq5sUcCcSKTtnZXsctIkL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339885328410-55i0el7qvodkauhd4o9gr3b1ajsngnfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

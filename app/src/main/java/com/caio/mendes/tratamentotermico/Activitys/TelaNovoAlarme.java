@@ -4,22 +4,17 @@ import static com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura.Sensor
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.NotificationManager;
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.hardware.Sensor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
-
 import com.caio.mendes.tratamentotermico.ModuloConexao.ModuloConexao;
 import com.caio.mendes.tratamentotermico.R;
-import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
@@ -32,6 +27,7 @@ public class TelaNovoAlarme extends AppCompatActivity {
     private EditText txtAlarmeAlta;
     private EditText txtAlarmeBaixa;
     private Button btnAlarme;
+    private TextView txtSensores;
 
 
     @Override
@@ -43,8 +39,12 @@ public class TelaNovoAlarme extends AppCompatActivity {
         txtAlarmeAlta = (EditText) findViewById(R.id.txtAlarmeAlta);
         txtAlarmeBaixa = (EditText) findViewById(R.id.txtAlarmeBaixa);
         btnAlarme = (Button) findViewById(R.id.btnAlarme);
+        txtSensores = (TextView) findViewById(R.id.txtSensores);
 
         buscar_alarmes();
+
+        txtSensores.setText(Sensores);
+
 
 
         btnAlarme.setOnClickListener(new View.OnClickListener() {

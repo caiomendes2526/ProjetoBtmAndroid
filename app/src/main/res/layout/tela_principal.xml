@@ -57,7 +57,7 @@
                 android:layout_height="160dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/bg_principal"
-                android:drawableTop="@drawable/cadeadoaberto"
+                android:drawableTop="@drawable/alarmeativado"
                 android:gravity="center"
                 android:text="ALARMES"
                 android:textColor="@android:color/white"

@@ -11,6 +11,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 import com.caio.mendes.tratamentotermico.R;
 import com.google.firebase.messaging.FirebaseMessaging;
 
@@ -32,6 +33,8 @@ public class TelaPrincipal extends AppCompatActivity {
         btnAlarme = (Button) findViewById(R.id.btnAlarme);
         btnAtivadoDesativado = (Button) findViewById(R.id.btnAtivaDessativa);
 
+        System.out.println("Nf alta " + Nf_alta );
+
         SharedPreferences prefs = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         String myValue = prefs.getString("myKey", condicao);
         condicao = myValue;
@@ -39,10 +42,13 @@ public class TelaPrincipal extends AppCompatActivity {
         System.out.println("Minha Váriavel: " + condicao);
 
         if (condicao.equals("1")) {
-        //    Imagem.setImageDrawable(getDrawable(R.drawable.cadeadoaberto));
+
+            btnAtivadoDesativado.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.alarmeativado,0,0);
+            btnAtivadoDesativado.setText("ALARMES ATIVADOS");
         }
         if (condicao.equals("0")) {
-       //     Imagem.setImageDrawable(getDrawable(R.drawable.cadeadofechado));
+            btnAtivadoDesativado.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.alarmedesativado,0,0);
+            btnAtivadoDesativado.setText("ALARMES DESATIVADOS");
         }
 
 
@@ -71,17 +77,17 @@ public class TelaPrincipal extends AppCompatActivity {
                 if (Nf_alta != null) {
 
                     if (condicao.equals("1")) {
-                     //   Imagem.setImageDrawable(getDrawable(R.drawable.cadeadofechado));
                         condicao = "0";
                         gravarCondicao();
                         FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_alta);
                         FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_baixa);
+                        finish();
                     } else if (condicao.equals("0")) {
-                     //   Imagem.setImageDrawable(getDrawable(R.drawable.cadeadoaberto));
                         condicao = "1";
                         gravarCondicao();
                         FirebaseMessaging.getInstance().subscribeToTopic(Nf_alta);
                         FirebaseMessaging.getInstance().subscribeToTopic(Nf_baixa);
+                        finish();
                     }
 
 

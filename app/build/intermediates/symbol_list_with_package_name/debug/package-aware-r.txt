@@ -1798,6 +1798,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add
 drawable alarme
+drawable alarmeativado
+drawable alarmedesativado
 drawable alerta
 drawable avd_hide_password
 drawable avd_show_password
@@ -1821,7 +1823,6 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_principal
-drawable cadeadoaberto
 drawable calendario
 drawable close
 drawable common_full_open_on_phone
@@ -2391,6 +2392,7 @@ id txtAlarmeAlta
 id txtAlarmeBaixa
 id txtDataFinal
 id txtDataInicial
+id txtSensores
 id txt_message
 id unchecked
 id uniform

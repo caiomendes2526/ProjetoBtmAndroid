@@ -28,19 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.SplashScreen" >
         <activity
-            android:name="com.caio.mendes.tratamentotermico.TelaTeste"
-            android:exported="false" />
-        <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaEquipamentos"
-            android:exported="false" />
-        <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaClose"
+            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento"
             android:exported="false" />
         <activity
             android:name="com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme"
-            android:exported="false" />
-        <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaStart"
             android:exported="false" />
         <activity
             android:name="com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal"

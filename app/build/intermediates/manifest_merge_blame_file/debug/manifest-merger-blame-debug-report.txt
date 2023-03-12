@@ -6,265 +6,247 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml
+8-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml
+9-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WAKE_LOCK" />
-11-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:5:5-68
-11-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:5:22-65
+11-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:5:22-65
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:7:22-76
+13-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-14-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:8:5-75
-14-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:8:22-72
+14-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:8:5-75
+14-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:8:22-72
 15
 16    <!-- Required by older versions of Google Play services to create IID tokens -->
 17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-17-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
-17-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+17-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
 18
 19    <application
-19-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:10:5-74:19
+19-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:10:5-65:19
 20        android:allowBackup="true"
-20-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:11:9-35
+20-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:11:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] C:\Users\PCP\.gradle\caches\transforms-3\b7aa18655af65f01fdd11133a3fa67ab\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.7.0] C:\gradle-8.0.2\caches\transforms-3\b7aa18655af65f01fdd11133a3fa67ab\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:12:9-43
+24-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:12:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:13:9-41
+25-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:13:9-41
 26        android:roundIcon="@mipmap/logotipo"
-26-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:14:9-45
+26-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:14:9-45
 27        android:supportsRtl="true"
-27-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:15:9-35
+27-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:15:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.SplashScreen" >
-29-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:16:9-50
+29-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:16:9-50
 30        <activity
-30-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:17:9-19:40
-31            android:name="com.caio.mendes.tratamentotermico.TelaTeste"
-31-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:18:13-38
+30-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:17:9-19:40
+31            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento"
+31-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:18:13-54
 32            android:exported="false" />
-32-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:19:13-37
+32-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:19:13-37
 33        <activity
-33-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:20:9-22:40
-34            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaEquipamentos"
-34-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:21:13-55
+33-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:20:9-22:40
+34            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme"
+34-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:21:13-53
 35            android:exported="false" />
-35-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:22:13-37
+35-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:22:13-37
 36        <activity
-36-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:23:9-25:40
-37            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaClose"
-37-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:24:13-48
+36-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:23:9-25:40
+37            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal"
+37-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:24:13-52
 38            android:exported="false" />
-38-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:25:13-37
-39        <activity
-39-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:26:9-28:40
-40            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme"
-40-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:27:13-53
-41            android:exported="false" />
-41-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:28:13-37
-42        <activity
-42-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:29:9-31:40
-43            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaStart"
-43-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:30:13-48
-44            android:exported="false" />
-44-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:31:13-37
-45        <activity
-45-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:32:9-34:40
-46            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal"
-46-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:33:13-52
-47            android:exported="false" />
-47-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:34:13-37
-48        <activity android:name="com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura" />
-48-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:35:9-63
-48-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:35:19-60
-49        <activity
-49-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:36:9-38:39
-50            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaDados"
-50-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:37:13-48
-51            android:exported="true" />
-51-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:38:13-36
-52        <activity
-52-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:39:9-47:20
-53            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaLogin"
-53-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:40:13-48
-54            android:exported="true" >
-54-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:41:13-36
-55            <intent-filter>
-55-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:42:13-46:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:43:17-69
-56-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:43:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:45:17-77
-58-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:45:27-74
+38-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:25:13-37
+39        <activity android:name="com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura" />
+39-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:26:9-63
+39-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:26:19-60
+40        <activity
+40-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:27:9-29:39
+41            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaDados"
+41-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:28:13-48
+42            android:exported="true" />
+42-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:29:13-36
+43        <activity
+43-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:30:9-38:20
+44            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaLogin"
+44-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:31:13-48
+45            android:exported="true" >
+45-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:32:13-36
+46            <intent-filter>
+46-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:33:13-37:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:34:17-69
+47-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:34:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:36:17-77
+49-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:36:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service android:name="org.eclipse.paho.android.service.MqttService" />
+53-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:40:9-80
+53-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:40:18-77
+54        <service
+54-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:41:9-47:19
+55            android:name="com.caio.mendes.tratamentotermico.MyFirebaseNotification.MyFirebaseMessagingService"
+55-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:42:13-78
+56            android:exported="false" >
+56-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:43:13-37
+57            <intent-filter>
+57-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:44:13-46:29
+58                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+58-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:45:17-78
+58-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:45:25-75
 59            </intent-filter>
-60        </activity>
-61
-62        <service android:name="org.eclipse.paho.android.service.MqttService" />
-62-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:49:9-80
-62-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:49:18-77
-63        <service
-63-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:50:9-56:19
-64            android:name="com.caio.mendes.tratamentotermico.MyFirebaseNotification.MyFirebaseMessagingService"
-64-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:51:13-78
-65            android:exported="false" >
-65-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:52:13-37
-66            <intent-filter>
-66-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:53:13-55:29
-67                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-67-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:54:17-78
-67-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:54:25-75
-68            </intent-filter>
-69        </service>
-70        <!--
-71        Set custom default icon. This is used when no icon is set for incoming notification messages.
-72        See README(https://goo.gl/l4GJaQ) for more.
-73        -->
-74        <meta-data
-74-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:61:9-63:51
-75            android:name="com.google.firebase.messaging.default_notification_icon"
-75-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:62:13-83
-76            android:resource="@drawable/alerta" />
-76-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:63:13-48
-77        <!--
-78 Set color used with incoming notification messages. This is used when no color is set for the incoming
-79             notification message. See README(https://goo.gl/6BKBk7) for more.
-80        -->
-81        <meta-data
-81-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:68:9-70:67
-82            android:name="com.google.firebase.messaging.default_notification_color"
-82-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:69:13-84
-83            android:resource="@color/cardview_light_background" />
-83-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:70:13-64
-84        <meta-data
-84-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:71:9-73:71
-85            android:name="com.google.firebase.messaging.default_notification_channel_id"
-85-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:72:13-89
-86            android:value="@string/default_notification_channel_id" />
-86-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:73:13-68
-87        <!--
-88             FirebaseMessagingService performs security checks at runtime,
-89             no need for explicit permissions despite exported="true"
-90        -->
-91        <service
-91-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\PCP\.gradle\caches\transforms-3\58de94024034b78071ecf796cda8e137\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
-92            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-92-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\PCP\.gradle\caches\transforms-3\58de94024034b78071ecf796cda8e137\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
-93            android:exported="true" >
-93-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\PCP\.gradle\caches\transforms-3\58de94024034b78071ecf796cda8e137\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
-94            <intent-filter android:priority="-500" >
-94-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:53:13-55:29
-95                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-95-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:54:17-78
-95-->C:\Users\PCP\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:54:25-75
-96            </intent-filter>
-97        </service>
-98        <service
-98-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
-99            android:name="com.google.firebase.components.ComponentDiscoveryService"
-99-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
-100            android:exported="false" >
-100-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
-101            <meta-data
-101-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
-102                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-102-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
-103                android:value="com.google.firebase.components.ComponentRegistrar" />
-103-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
-104        </service>
-105
-106        <receiver
-106-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
-107            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-107-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
-108            android:exported="true"
-108-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
-109            android:permission="com.google.android.c2dm.permission.SEND" >
-109-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
-110            <intent-filter>
-110-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
-111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-111-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
-111-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
-112            </intent-filter>
-113        </receiver>
-114        <!--
-115             FirebaseInstanceIdService performs security checks at runtime,
-116             no need for explicit permissions despite exported="true"
-117        -->
-118        <service
-118-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
-119            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-119-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
-120            android:exported="true" >
-120-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
-121            <intent-filter android:priority="-500" >
-121-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
-121-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
-122                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-122-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
-122-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\PCP\.gradle\caches\transforms-3\252f31eb88a689554580c7a8c2bb1b52\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
-123            </intent-filter>
-124        </service>
-125
-126        <provider
-126-->[com.google.firebase:firebase-common:16.0.3] C:\Users\PCP\.gradle\caches\transforms-3\d37c61ff756554ce232fc665389c0cf2\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-127            android:name="com.google.firebase.provider.FirebaseInitProvider"
-127-->[com.google.firebase:firebase-common:16.0.3] C:\Users\PCP\.gradle\caches\transforms-3\d37c61ff756554ce232fc665389c0cf2\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-128            android:authorities="com.caio.mendes.tratamentotermico.firebaseinitprovider"
-128-->[com.google.firebase:firebase-common:16.0.3] C:\Users\PCP\.gradle\caches\transforms-3\d37c61ff756554ce232fc665389c0cf2\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-129            android:exported="false"
-129-->[com.google.firebase:firebase-common:16.0.3] C:\Users\PCP\.gradle\caches\transforms-3\d37c61ff756554ce232fc665389c0cf2\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-130            android:initOrder="100" />
-130-->[com.google.firebase:firebase-common:16.0.3] C:\Users\PCP\.gradle\caches\transforms-3\d37c61ff756554ce232fc665389c0cf2\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+60        </service>
+61        <!--
+62        Set custom default icon. This is used when no icon is set for incoming notification messages.
+63        See README(https://goo.gl/l4GJaQ) for more.
+64        -->
+65        <meta-data
+65-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:52:9-54:51
+66            android:name="com.google.firebase.messaging.default_notification_icon"
+66-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:53:13-83
+67            android:resource="@drawable/alerta" />
+67-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:54:13-48
+68        <!--
+69 Set color used with incoming notification messages. This is used when no color is set for the incoming
+70             notification message. See README(https://goo.gl/6BKBk7) for more.
+71        -->
+72        <meta-data
+72-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:59:9-61:67
+73            android:name="com.google.firebase.messaging.default_notification_color"
+73-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:60:13-84
+74            android:resource="@color/cardview_light_background" />
+74-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:61:13-64
+75        <meta-data
+75-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:62:9-64:71
+76            android:name="com.google.firebase.messaging.default_notification_channel_id"
+76-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:63:13-89
+77            android:value="@string/default_notification_channel_id" />
+77-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:64:13-68
+78        <!--
+79             FirebaseMessagingService performs security checks at runtime,
+80             no need for explicit permissions despite exported="true"
+81        -->
+82        <service
+82-->[com.google.firebase:firebase-messaging:17.3.4] C:\gradle-8.0.2\caches\transforms-3\7483e27adc6f24eb2b0f30433c578831\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+83            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+83-->[com.google.firebase:firebase-messaging:17.3.4] C:\gradle-8.0.2\caches\transforms-3\7483e27adc6f24eb2b0f30433c578831\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+84            android:exported="true" >
+84-->[com.google.firebase:firebase-messaging:17.3.4] C:\gradle-8.0.2\caches\transforms-3\7483e27adc6f24eb2b0f30433c578831\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+85            <intent-filter android:priority="-500" >
+85-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:44:13-46:29
+86                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+86-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:45:17-78
+86-->C:\Users\Usuario\Documents\GitHub\Projeto_Start_Temp_Android\app\src\main\AndroidManifest.xml:45:25-75
+87            </intent-filter>
+88        </service>
+89        <service
+89-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+92            <meta-data
+92-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+93-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+95        </service>
+96
+97        <receiver
+97-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+98            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+98-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+99            android:exported="true"
+99-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+100            android:permission="com.google.android.c2dm.permission.SEND" >
+100-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+101            <intent-filter>
+101-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+102                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+102-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+102-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+103            </intent-filter>
+104        </receiver>
+105        <!--
+106             FirebaseInstanceIdService performs security checks at runtime,
+107             no need for explicit permissions despite exported="true"
+108        -->
+109        <service
+109-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+110            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+110-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+111            android:exported="true" >
+111-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+112            <intent-filter android:priority="-500" >
+112-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
+112-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
+113                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+113-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
+113-->[com.google.firebase:firebase-iid:17.0.4] C:\gradle-8.0.2\caches\transforms-3\23680d0be7aa6c8a682da289447f9cfb\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
+114            </intent-filter>
+115        </service>
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:16.0.3] C:\gradle-8.0.2\caches\transforms-3\252c053b05ca10f05a847032b643d86b\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:16.0.3] C:\gradle-8.0.2\caches\transforms-3\252c053b05ca10f05a847032b643d86b\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+119            android:authorities="com.caio.mendes.tratamentotermico.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:16.0.3] C:\gradle-8.0.2\caches\transforms-3\252c053b05ca10f05a847032b643d86b\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:16.0.3] C:\gradle-8.0.2\caches\transforms-3\252c053b05ca10f05a847032b643d86b\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:16.0.3] C:\gradle-8.0.2\caches\transforms-3\252c053b05ca10f05a847032b643d86b\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:16.0.1] C:\gradle-8.0.2\caches\transforms-3\fa4969d57ba43df351330324a28b7508\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:16.0.1] C:\gradle-8.0.2\caches\transforms-3\fa4969d57ba43df351330324a28b7508\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:16.0.1] C:\gradle-8.0.2\caches\transforms-3\fa4969d57ba43df351330324a28b7508\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:16.0.1] C:\gradle-8.0.2\caches\transforms-3\fa4969d57ba43df351330324a28b7508\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:16.0.1] C:\gradle-8.0.2\caches\transforms-3\9dd406caa87d46180c868a38960bd627\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:16.0.1] C:\gradle-8.0.2\caches\transforms-3\9dd406caa87d46180c868a38960bd627\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:16.0.1] C:\gradle-8.0.2\caches\transforms-3\9dd406caa87d46180c868a38960bd627\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
 131
-132        <activity
-132-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\57bb44c5fc2fab605d2bd419649bb9bd\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-133-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\57bb44c5fc2fab605d2bd419649bb9bd\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-134            android:exported="false"
-134-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\57bb44c5fc2fab605d2bd419649bb9bd\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-135-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\57bb44c5fc2fab605d2bd419649bb9bd\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-136
-137        <meta-data
-137-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\47dbd480a9564de2939572bad74213f0\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-138            android:name="com.google.android.gms.version"
-138-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\47dbd480a9564de2939572bad74213f0\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-139            android:value="@integer/google_play_services_version" />
-139-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\PCP\.gradle\caches\transforms-3\47dbd480a9564de2939572bad74213f0\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-140
-141        <provider
-141-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-142            android:name="androidx.startup.InitializationProvider"
-142-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-143            android:authorities="com.caio.mendes.tratamentotermico.androidx-startup"
-143-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-144            android:exported="false" >
-144-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-145            <meta-data
-145-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-146                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-146-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-147                android:value="androidx.startup" />
-147-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PCP\.gradle\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-148            <meta-data
-148-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PCP\.gradle\caches\transforms-3\2577fd84422c5e3f8e8ed5bbc673e4c7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-149                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-149-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PCP\.gradle\caches\transforms-3\2577fd84422c5e3f8e8ed5bbc673e4c7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-150                android:value="androidx.startup" />
-150-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PCP\.gradle\caches\transforms-3\2577fd84422c5e3f8e8ed5bbc673e4c7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-151        </provider>
-152    </application>
-153
-154</manifest>
+132        <provider
+132-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+133            android:name="androidx.startup.InitializationProvider"
+133-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+134            android:authorities="com.caio.mendes.tratamentotermico.androidx-startup"
+134-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+135            android:exported="false" >
+135-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+136            <meta-data
+136-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+137-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+138                android:value="androidx.startup" />
+138-->[androidx.emoji2:emoji2:1.0.0] C:\gradle-8.0.2\caches\transforms-3\a04f92e72949fd5d345db57e79884214\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+139            <meta-data
+139-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\gradle-8.0.2\caches\transforms-3\2577fd84422c5e3f8e8ed5bbc673e4c7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\gradle-8.0.2\caches\transforms-3\2577fd84422c5e3f8e8ed5bbc673e4c7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+141                android:value="androidx.startup" />
+141-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\gradle-8.0.2\caches\transforms-3\2577fd84422c5e3f8e8ed5bbc673e4c7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+142        </provider>
+143    </application>
+144
+145</manifest>

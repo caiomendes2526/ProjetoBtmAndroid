@@ -134,7 +134,7 @@ public class TelaLogin extends AppCompatActivity {
                                     }
 
 
-                                    Intent intent = new Intent(TelaLogin.this, TelaTemperatura.class);
+                                    Intent intent = new Intent(TelaLogin.this, TelaEquipamento.class);
                                     startActivity(intent);
                                 }
                             }

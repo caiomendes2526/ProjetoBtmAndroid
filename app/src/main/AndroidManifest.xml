@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.caio.mendes.tratamentotermico">
+    package="com.caio.mendes.tratamentotermico" >
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,21 +13,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logotipo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SplashScreen">
+        android:theme="@style/Theme.SplashScreen" >
         <activity
-            android:name=".TelaTeste"
-            android:exported="false" />
-        <activity
-            android:name=".Activitys.TelaEquipamentos"
-            android:exported="false" />
-        <activity
-            android:name=".Activitys.TelaClose"
+            android:name=".Activitys.TelaEquipamento"
             android:exported="false" />
         <activity
             android:name=".Activitys.TelaNovoAlarme"
-            android:exported="false" />
-        <activity
-            android:name=".Activitys.TelaStart"
             android:exported="false" />
         <activity
             android:name=".Activitys.TelaPrincipal"
@@ -38,7 +29,7 @@
             android:exported="true" />
         <activity
             android:name=".Activitys.TelaLogin"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -49,7 +40,7 @@
         <service android:name="org.eclipse.paho.android.service.MqttService" />
         <service
             android:name=".MyFirebaseNotification.MyFirebaseMessagingService"
-            android:exported="false">
+            android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

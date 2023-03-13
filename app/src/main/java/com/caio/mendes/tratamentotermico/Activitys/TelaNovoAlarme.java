@@ -1,5 +1,6 @@
 package com.caio.mendes.tratamentotermico.Activitys;
 
+import static com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento.Equipamento;
 import static com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura.Sensores;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,7 +44,7 @@ public class TelaNovoAlarme extends AppCompatActivity {
 
         buscar_alarmes();
 
-        txtSensores.setText(Sensores);
+        txtSensores.setText(Sensores + " - " + Equipamento);
 
 
 
@@ -76,6 +77,7 @@ public class TelaNovoAlarme extends AppCompatActivity {
                     .setBodyParameter("alta", txtAlarmeAlta.getText().toString())
                     .setBodyParameter("baixa", txtAlarmeBaixa.getText().toString())
                     .setBodyParameter("sensor", Sensores)
+                    .setBodyParameter("equipamento", Equipamento)
                     .asJsonObject()
                     .setCallback(new FutureCallback<JsonObject>() {
                         @Override
@@ -113,6 +115,7 @@ public class TelaNovoAlarme extends AppCompatActivity {
             Ion.with(TelaNovoAlarme.this)
                     .load(URL)
                     .setBodyParameter("sensor", Sensores)
+                    .setBodyParameter("equipamento", Equipamento)
                     .asJsonObject()
                     .setCallback(new FutureCallback<JsonObject>() {
                         @Override

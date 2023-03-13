@@ -1,5 +1,7 @@
 package com.caio.mendes.tratamentotermico.Activitys;
 
+import static com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento.Equipamento;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -91,6 +93,7 @@ public class TelaTemperatura extends AppCompatActivity {
             String url = moduloConexao.HOST + "/ListarUltimaTemp.php";
             Ion.with(getBaseContext())
                     .load(url)
+                    .setBodyParameter("equipamento", Equipamento)
                     .asJsonArray()
                     .setCallback(new FutureCallback<JsonArray>() {
                         @Override
@@ -294,10 +297,7 @@ public class TelaTemperatura extends AppCompatActivity {
         }
     } */
 
-    @Override
-    public void onBackPressed() {
-        this.moveTaskToBack(true);
-    }
+
 
 }
 

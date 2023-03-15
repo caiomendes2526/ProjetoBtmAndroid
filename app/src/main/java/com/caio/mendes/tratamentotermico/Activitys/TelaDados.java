@@ -1,5 +1,6 @@
 package com.caio.mendes.tratamentotermico.Activitys;
 
+import static com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento.Equipamento;
 import static com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura.Sensores;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import com.caio.mendes.tratamentotermico.Classes.MaskEditUtil;
 import com.caio.mendes.tratamentotermico.ListarDados.ListarAdapterDados;
 import com.caio.mendes.tratamentotermico.ListarDados.ListarDados;
@@ -22,7 +22,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -123,41 +122,6 @@ public class TelaDados extends AppCompatActivity {
         }
     }
 
-    /*
-    private void ListarDados() {
-        try {
-            Lista2.clear();
-            String url = moduloConexao.HOST + "/ListarDados.php";
-            Ion.with(getBaseContext())
-                    .load(url)
-                    .setBodyParameter("data", txtDataInicial.getText().toString())
-                    .setBodyParameter("dataf", txtDataFinal.getText().toString())
-                    .asJsonArray()
-                    .setCallback(new FutureCallback<JsonArray>() {
-                        @Override
-                        public void onCompleted(Exception e, JsonArray result) {
-
-                            for (int i = 0; i < result.size(); i++) {
-
-                                JsonObject obj = result.get(i).getAsJsonObject();
-
-                                ListarDados c = new ListarDados();
-
-                                c.setSensor(obj.get("sensor").getAsString());
-                                c.setTemperatura(obj.get("temp").getAsString() + " ºC");
-                                c.setData(obj.get("data_hora").getAsString());
-
-                                Lista2.add(c);
-                            }
-                            listarAdapterDados.notifyDataSetChanged();
-                        }
-                    });
-        } catch (Exception erro) {
-
-        }
-    }
-    */
-
     private void ListarDadosZona() {
         try {
             Lista2.clear();
@@ -165,6 +129,7 @@ public class TelaDados extends AppCompatActivity {
             Ion.with(getBaseContext())
                     .load(url)
                     .setBodyParameter("sensor", Sensores)
+                    .setBodyParameter("equipamento", Equipamento)
                     .setBodyParameter("data", txtDataInicial.getText().toString())
                     .setBodyParameter("dataf", txtDataFinal.getText().toString())
                     .asJsonArray()

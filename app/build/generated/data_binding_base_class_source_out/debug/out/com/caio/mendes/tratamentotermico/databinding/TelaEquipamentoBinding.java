@@ -25,16 +25,11 @@ public final class TelaEquipamentoBinding implements ViewBinding {
   @NonNull
   public final FloatingActionButton fabAddEquipamento;
 
-  @NonNull
-  public final RelativeLayout swipeContainer;
-
   private TelaEquipamentoBinding(@NonNull RelativeLayout rootView,
-      @NonNull ListView ListViewEquipamento, @NonNull FloatingActionButton fabAddEquipamento,
-      @NonNull RelativeLayout swipeContainer) {
+      @NonNull ListView ListViewEquipamento, @NonNull FloatingActionButton fabAddEquipamento) {
     this.rootView = rootView;
     this.ListViewEquipamento = ListViewEquipamento;
     this.fabAddEquipamento = fabAddEquipamento;
-    this.swipeContainer = swipeContainer;
   }
 
   @Override
@@ -76,10 +71,8 @@ public final class TelaEquipamentoBinding implements ViewBinding {
         break missingId;
       }
 
-      RelativeLayout swipeContainer = (RelativeLayout) rootView;
-
       return new TelaEquipamentoBinding((RelativeLayout) rootView, ListViewEquipamento,
-          fabAddEquipamento, swipeContainer);
+          fabAddEquipamento);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

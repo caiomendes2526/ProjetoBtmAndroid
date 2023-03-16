@@ -2768,7 +2768,6 @@ int string path_password_strike_through 0x7f0f0083
 int string project_id 0x7f0f0084
 int string search_menu_title 0x7f0f0085
 int string status_bar_notification_info_overflow 0x7f0f0086
-int string title_activity_main 0x7f0f0087
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style AndroidThemeColorAccentYellow 0x7f100002

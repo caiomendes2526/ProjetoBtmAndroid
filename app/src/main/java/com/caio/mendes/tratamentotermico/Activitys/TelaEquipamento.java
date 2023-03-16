@@ -5,7 +5,6 @@ import static com.caio.mendes.tratamentotermico.Activitys.TelaLogin.Nf_baixa;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,7 +14,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import com.caio.mendes.tratamentotermico.ListarDados.ListarAdapterEquipamento;
 import com.caio.mendes.tratamentotermico.ListarDados.ListarEquipamento;
 import com.caio.mendes.tratamentotermico.ModuloConexao.ModuloConexao;
@@ -26,7 +24,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
-
 import java.util.ArrayList;
 import java.util.List;
 

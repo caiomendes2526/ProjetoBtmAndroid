@@ -49,25 +49,7 @@
                 android:textStyle="bold"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:layout_marginTop="60dp" />
-
-            <Button
-                android:id="@+id/btnAtivaDessativa"
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/bg_principal"
-                android:drawableTop="@drawable/alarmeativado"
-                android:gravity="center"
-                android:text="ALARMES"
-                android:textColor="@android:color/white"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_marginTop="60dp"
-                android:layout_marginBottom="40dp"/>
-
+                android:layout_marginTop="100dp" />
 
         </LinearLayout>
 </LinearLayout>

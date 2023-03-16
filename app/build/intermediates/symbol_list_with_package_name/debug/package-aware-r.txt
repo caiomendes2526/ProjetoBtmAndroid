@@ -1319,6 +1319,8 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color verde
+color vermelho
 color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -2050,7 +2052,6 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAlarme
-id btnAtivaDessativa
 id btnBuscar
 id btnLogar
 id btnTemperatura
@@ -2230,7 +2231,6 @@ id media_actions
 id message
 id middle
 id mini
-id mobile_navigation
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -2268,10 +2268,7 @@ id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
-id navigation_dashboard
 id navigation_header_container
-id navigation_home
-id navigation_notifications
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -2636,7 +2633,6 @@ mipmap ic_launcher_round
 mipmap logo
 mipmap logotipo
 mipmap logotipo_round
-navigation mobile_navigation
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2665,7 +2661,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string add_button_content_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -2775,9 +2770,6 @@ string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_main
-string title_dashboard
-string title_home
-string title_notifications
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

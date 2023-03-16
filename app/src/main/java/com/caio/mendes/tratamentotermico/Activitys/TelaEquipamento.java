@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
+
 import com.caio.mendes.tratamentotermico.ListarDados.ListarAdapterEquipamento;
 import com.caio.mendes.tratamentotermico.ListarDados.ListarEquipamento;
 import com.caio.mendes.tratamentotermico.ModuloConexao.ModuloConexao;
@@ -68,16 +70,12 @@ public class TelaEquipamento extends AppCompatActivity {
 
         if (condicao.equals("1")) {
 
-            fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.black)));
+            fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.verde)));
             fab_add_equipamento.setImageResource(R.drawable.alarmeativado);
-         //   btnAtivadoDesativado.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.alarmeativado,0,0);
-        //    btnAtivadoDesativado.setText("ALARMES ATIVADOS");
         }
         if (condicao.equals("0")) {
-            fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.white)));
+            fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(this, R.color.vermelho)));
             fab_add_equipamento.setImageResource(R.drawable.alarmedesativado);
-       //     btnAtivadoDesativado.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.alarmedesativado,0,0);
-       //     btnAtivadoDesativado.setText("ALARMES DESATIVADOS");
         }
 
 
@@ -123,16 +121,20 @@ public class TelaEquipamento extends AppCompatActivity {
                         FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_alta);
                         FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_baixa);
 
-                        fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.white)));
+                        fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.vermelho)));
                         fab_add_equipamento.setImageResource(R.drawable.alarmedesativado);
+                        Toast.makeText(TelaEquipamento.this, "ALARMES DESATIVADOS",
+                                Toast.LENGTH_LONG).show();
 
                     } else if (condicao.equals("0")) {
                         condicao = "1";
                         gravarCondicao();
                         FirebaseMessaging.getInstance().subscribeToTopic(Nf_alta);
                         FirebaseMessaging.getInstance().subscribeToTopic(Nf_baixa);
-                        fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.black)));
+                        fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.verde)));
                         fab_add_equipamento.setImageResource(R.drawable.alarmeativado);
+                        Toast.makeText(TelaEquipamento.this, "ALARMES ATIVADOS",
+                                Toast.LENGTH_LONG).show();
 
                     }
 
@@ -145,6 +147,7 @@ public class TelaEquipamento extends AppCompatActivity {
             }
         });
 
+        fab_add_equipamento.setSize(FloatingActionButton.SIZE_AUTO);
 
 
     }

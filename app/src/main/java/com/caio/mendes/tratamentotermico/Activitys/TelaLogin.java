@@ -63,17 +63,17 @@ public class TelaLogin extends AppCompatActivity {
 
                     editSenhaLogar.requestFocus();
 
-                    InputMethodManager imm =
+              /*      InputMethodManager imm =
                             (InputMethodManager) getSystemService(TelaLogin.INPUT_METHOD_SERVICE);
                     if (imm.isActive())
-                        imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+                        imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0); */
 
 
                 } else {
-                    InputMethodManager imm =
+                 /*   InputMethodManager imm =
                             (InputMethodManager) getSystemService(TelaLogin.INPUT_METHOD_SERVICE);
                     if (imm.isActive())
-                        imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+                        imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0); */
                     editSenhaLogar.setEnabled(false);
 
                     ConnectivityManager connMgr = (ConnectivityManager)

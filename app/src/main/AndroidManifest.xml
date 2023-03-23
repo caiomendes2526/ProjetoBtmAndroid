@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SplashScreen">
         <activity
+            android:name=".TelaNovaEquipamentos"
+            android:exported="false" />
+        <activity
             android:name=".Activitys.TelaEquipamento"
             android:exported="false" />
         <activity

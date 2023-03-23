@@ -11,18 +11,20 @@ com/caio/mendes/tratamentotermico/ListarDados/ListarUltimaTemp.java
  com.caio.mendes.tratamentotermico.ListarDados.ListarUltimaTemp
 com/caio/mendes/tratamentotermico/BuildConfig.java
  com.caio.mendes.tratamentotermico.BuildConfig
+com/caio/mendes/tratamentotermico/databinding/TelaNovaEquipamentosBinding.java
+ com.caio.mendes.tratamentotermico.databinding.TelaNovaEquipamentosBinding
 com/caio/mendes/tratamentotermico/ListarDados/ListarAdapterDados.java
  com.caio.mendes.tratamentotermico.ListarDados.ListarAdapterDados
 com/caio/mendes/tratamentotermico/databinding/TelaNovoAlarmeBinding.java
  com.caio.mendes.tratamentotermico.databinding.TelaNovoAlarmeBinding
-com/caio/mendes/tratamentotermico/Activitys/TelaTemperatura.java
- com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura
- com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$1
- com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$2
+com/caio/mendes/tratamentotermico/ListarDados/ListarEquipamento.java
+ com.caio.mendes.tratamentotermico.ListarDados.ListarEquipamento
 com/caio/mendes/tratamentotermico/ListarDados/ListarDados.java
  com.caio.mendes.tratamentotermico.ListarDados.ListarDados
 com/caio/mendes/tratamentotermico/ModuloConexao/ModuloConexao.java
  com.caio.mendes.tratamentotermico.ModuloConexao.ModuloConexao
+com/caio/mendes/tratamentotermico/Activitys/TelaNovaEquipamentos.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaNovaEquipamentos
 com/caio/mendes/tratamentotermico/api/NotificacaoService.java
  com.caio.mendes.tratamentotermico.api.NotificacaoService
 com/caio/mendes/tratamentotermico/model/NotificacaoDados.java
@@ -31,12 +33,8 @@ com/caio/mendes/tratamentotermico/databinding/TelaLoginBinding.java
  com.caio.mendes.tratamentotermico.databinding.TelaLoginBinding
 com/caio/mendes/tratamentotermico/MyFirebaseNotification/MyFirebaseMessagingService.java
  com.caio.mendes.tratamentotermico.MyFirebaseNotification.MyFirebaseMessagingService
-com/caio/mendes/tratamentotermico/Activitys/TelaEquipamento.java
- com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento
- com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$1
- com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$2
- com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$3
- com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$4
+com/caio/mendes/tratamentotermico/databinding/TelaEquipamentoBinding.java
+ com.caio.mendes.tratamentotermico.databinding.TelaEquipamentoBinding
 com/caio/mendes/tratamentotermico/databinding/ItemListaDadosBinding.java
  com.caio.mendes.tratamentotermico.databinding.ItemListaDadosBinding
 com/caio/mendes/tratamentotermico/databinding/CustomToastBinding.java
@@ -64,12 +62,18 @@ com/caio/mendes/tratamentotermico/Activitys/TelaDados.java
  com.caio.mendes.tratamentotermico.Activitys.TelaDados
  com.caio.mendes.tratamentotermico.Activitys.TelaDados$1
  com.caio.mendes.tratamentotermico.Activitys.TelaDados$2
+com/caio/mendes/tratamentotermico/Activitys/TelaEquipamento.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento
+ com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$2
+ com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$3
+ com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$4
+com/caio/mendes/tratamentotermico/Activitys/TelaTemperatura.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura
+ com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$2
 com/caio/mendes/tratamentotermico/Activitys/TelaNovoAlarme.java
  com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme
  com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$1
  com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$2
  com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$3
-com/caio/mendes/tratamentotermico/ListarDados/ListarEquipamento.java
- com.caio.mendes.tratamentotermico.ListarDados.ListarEquipamento
-com/caio/mendes/tratamentotermico/databinding/TelaEquipamentoBinding.java
- com.caio.mendes.tratamentotermico.databinding.TelaEquipamentoBinding

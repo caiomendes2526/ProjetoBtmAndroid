@@ -47,6 +47,8 @@ public class TelaEquipamento extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_equipamento);
 
+        getSupportActionBar().hide();
+
         fab_add_equipamento = (FloatingActionButton) findViewById(R.id.fab_add_equipamento);
 
         ListViewEquipamento = (ListView) findViewById(R.id.ListViewEquipamento);

@@ -13,9 +13,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logotipo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SplashScreen">
+        android:theme="@style/AppTheme">
+
+
         <activity
-            android:name=".TelaNovaEquipamentos"
+            android:name=".Activitys.TelaNovaEquipamentos"
             android:exported="false" />
         <activity
             android:name=".Activitys.TelaEquipamento"

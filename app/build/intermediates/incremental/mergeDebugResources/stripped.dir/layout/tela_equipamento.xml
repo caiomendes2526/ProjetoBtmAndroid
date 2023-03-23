@@ -31,17 +31,19 @@
         android:layout_marginBottom="10dp"
         android:foregroundGravity="center" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/fab_add_equipamento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="15dp"
         android:layout_marginBottom="25dp"
-        android:src="@drawable/alarmeativado"
-        app:fabSize="auto"
-        app:maxImageSize="40dp"
+        android:text="ALARME"
+        android:textSize="14sp"
+        app:icon="@drawable/alarmeativado"
+        app:iconSize="40dp"
+        app:iconPadding="8dp"
+
         />
 </RelativeLayout>
-

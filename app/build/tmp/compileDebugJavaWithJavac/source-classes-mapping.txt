@@ -1,5 +1,5 @@
-com/caio/mendes/tratamentotermico/databinding/TelaDadosBinding.java
- com.caio.mendes.tratamentotermico.databinding.TelaDadosBinding
+com/caio/mendes/tratamentotermico/databinding/TelaEquipamentoBinding.java
+ com.caio.mendes.tratamentotermico.databinding.TelaEquipamentoBinding
 com/caio/mendes/tratamentotermico/Classes/MaskEditUtil.java
  com.caio.mendes.tratamentotermico.Classes.MaskEditUtil
  com.caio.mendes.tratamentotermico.Classes.MaskEditUtil$1
@@ -33,8 +33,8 @@ com/caio/mendes/tratamentotermico/databinding/TelaLoginBinding.java
  com.caio.mendes.tratamentotermico.databinding.TelaLoginBinding
 com/caio/mendes/tratamentotermico/MyFirebaseNotification/MyFirebaseMessagingService.java
  com.caio.mendes.tratamentotermico.MyFirebaseNotification.MyFirebaseMessagingService
-com/caio/mendes/tratamentotermico/databinding/TelaEquipamentoBinding.java
- com.caio.mendes.tratamentotermico.databinding.TelaEquipamentoBinding
+com/caio/mendes/tratamentotermico/databinding/TelaDadosBinding.java
+ com.caio.mendes.tratamentotermico.databinding.TelaDadosBinding
 com/caio/mendes/tratamentotermico/databinding/ItemListaDadosBinding.java
  com.caio.mendes.tratamentotermico.databinding.ItemListaDadosBinding
 com/caio/mendes/tratamentotermico/databinding/CustomToastBinding.java
@@ -67,7 +67,6 @@ com/caio/mendes/tratamentotermico/Activitys/TelaEquipamento.java
  com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$1
  com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$2
  com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$3
- com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento$4
 com/caio/mendes/tratamentotermico/Activitys/TelaTemperatura.java
  com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura
  com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$1

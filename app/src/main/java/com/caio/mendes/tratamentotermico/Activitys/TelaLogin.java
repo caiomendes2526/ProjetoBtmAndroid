@@ -36,12 +36,13 @@ public class TelaLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        try {
+     /*   try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        setTheme(R.style.Theme_TratamentoTermico);
+        setTheme(R.style.Theme_TratamentoTermico); */
+
         setContentView(R.layout.tela_login);
 
         btnLogar = (Button) findViewById(R.id.btnLogar);

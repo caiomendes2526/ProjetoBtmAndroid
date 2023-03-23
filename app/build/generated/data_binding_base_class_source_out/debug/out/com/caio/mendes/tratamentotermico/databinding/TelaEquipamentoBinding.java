@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import com.caio.mendes.tratamentotermico.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,10 +23,11 @@ public final class TelaEquipamentoBinding implements ViewBinding {
   public final ListView ListViewEquipamento;
 
   @NonNull
-  public final FloatingActionButton fabAddEquipamento;
+  public final ExtendedFloatingActionButton fabAddEquipamento;
 
   private TelaEquipamentoBinding(@NonNull RelativeLayout rootView,
-      @NonNull ListView ListViewEquipamento, @NonNull FloatingActionButton fabAddEquipamento) {
+      @NonNull ListView ListViewEquipamento,
+      @NonNull ExtendedFloatingActionButton fabAddEquipamento) {
     this.rootView = rootView;
     this.ListViewEquipamento = ListViewEquipamento;
     this.fabAddEquipamento = fabAddEquipamento;
@@ -66,7 +67,7 @@ public final class TelaEquipamentoBinding implements ViewBinding {
       }
 
       id = R.id.fab_add_equipamento;
-      FloatingActionButton fabAddEquipamento = rootView.findViewById(id);
+      ExtendedFloatingActionButton fabAddEquipamento = rootView.findViewById(id);
       if (fabAddEquipamento == null) {
         break missingId;
       }

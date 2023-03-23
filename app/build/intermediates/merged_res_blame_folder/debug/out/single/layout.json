@@ -1,46 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_login.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_login.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_temperatura.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_temperatura.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista_equipamento.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\item_lista_equipamento.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_login.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_login.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_toast.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\custom_toast.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_dados.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_dados.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista_ultima_temp.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\item_lista_ultima_temp.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista_equipamento.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\item_lista_equipamento.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_nova_equipamentos.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_nova_equipamentos.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_toast.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\custom_toast.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_principal.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_principal.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_novo_alarme.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_novo_alarme.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_dados.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_dados.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_equipamento.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_equipamento.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_novo_alarme.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_novo_alarme.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista_dados.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\item_lista_dados.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_equipamento.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_equipamento.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_nova_equipamentos.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_nova_equipamentos.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista_dados.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\item_lista_dados.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_principal.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_principal.xml"
     },
     {
-        "merged": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tela_temperatura.xml",
-        "source": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\tela_temperatura.xml"
+        "merged": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista_ultima_temp.xml",
+        "source": "C:\\Users\\PCP\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\src\\main\\res\\layout\\item_lista_ultima_temp.xml"
     }
 ]

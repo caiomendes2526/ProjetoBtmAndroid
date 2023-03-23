@@ -26,9 +26,9 @@
         android:roundIcon="@mipmap/logotipo"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.SplashScreen" >
+        android:theme="@style/AppTheme" >
         <activity
-            android:name="com.caio.mendes.tratamentotermico.TelaNovaEquipamentos"
+            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaNovaEquipamentos"
             android:exported="false" />
         <activity
             android:name="com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento"

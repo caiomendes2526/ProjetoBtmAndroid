@@ -7,6 +7,8 @@ com/caio/mendes/tratamentotermico/databinding/ItemListaEquipamentoBinding.java
  com.caio.mendes.tratamentotermico.databinding.ItemListaEquipamentoBinding
 com/caio/mendes/tratamentotermico/ListarDados/ListarAdapterUltimaTemp.java
  com.caio.mendes.tratamentotermico.ListarDados.ListarAdapterUltimaTemp
+com/caio/mendes/tratamentotermico/databinding/TelaOffSetBinding.java
+ com.caio.mendes.tratamentotermico.databinding.TelaOffSetBinding
 com/caio/mendes/tratamentotermico/ListarDados/ListarUltimaTemp.java
  com.caio.mendes.tratamentotermico.ListarDados.ListarUltimaTemp
 com/caio/mendes/tratamentotermico/BuildConfig.java
@@ -33,8 +35,16 @@ com/caio/mendes/tratamentotermico/databinding/TelaLoginBinding.java
  com.caio.mendes.tratamentotermico.databinding.TelaLoginBinding
 com/caio/mendes/tratamentotermico/MyFirebaseNotification/MyFirebaseMessagingService.java
  com.caio.mendes.tratamentotermico.MyFirebaseNotification.MyFirebaseMessagingService
-com/caio/mendes/tratamentotermico/databinding/TelaDadosBinding.java
- com.caio.mendes.tratamentotermico.databinding.TelaDadosBinding
+com/caio/mendes/tratamentotermico/Activitys/TelaNovoAlarme.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme
+ com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$2
+ com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$3
+com/caio/mendes/tratamentotermico/Activitys/TelaLogin.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaLogin
+ com.caio.mendes.tratamentotermico.Activitys.TelaLogin$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaLogin$1$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaLogin$2
 com/caio/mendes/tratamentotermico/databinding/ItemListaDadosBinding.java
  com.caio.mendes.tratamentotermico.databinding.ItemListaDadosBinding
 com/caio/mendes/tratamentotermico/databinding/CustomToastBinding.java
@@ -49,15 +59,8 @@ com/caio/mendes/tratamentotermico/databinding/ItemListaUltimaTempBinding.java
  com.caio.mendes.tratamentotermico.databinding.ItemListaUltimaTempBinding
 com/caio/mendes/tratamentotermico/ListarDados/ListarAdapterEquipamento.java
  com.caio.mendes.tratamentotermico.ListarDados.ListarAdapterEquipamento
-com/caio/mendes/tratamentotermico/Activitys/TelaPrincipal.java
- com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal
- com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal$1
- com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal$2
-com/caio/mendes/tratamentotermico/Activitys/TelaLogin.java
- com.caio.mendes.tratamentotermico.Activitys.TelaLogin
- com.caio.mendes.tratamentotermico.Activitys.TelaLogin$1
- com.caio.mendes.tratamentotermico.Activitys.TelaLogin$1$1
- com.caio.mendes.tratamentotermico.Activitys.TelaLogin$2
+com/caio/mendes/tratamentotermico/databinding/TelaDadosBinding.java
+ com.caio.mendes.tratamentotermico.databinding.TelaDadosBinding
 com/caio/mendes/tratamentotermico/Activitys/TelaDados.java
  com.caio.mendes.tratamentotermico.Activitys.TelaDados
  com.caio.mendes.tratamentotermico.Activitys.TelaDados$1
@@ -71,8 +74,13 @@ com/caio/mendes/tratamentotermico/Activitys/TelaTemperatura.java
  com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura
  com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$1
  com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura$2
-com/caio/mendes/tratamentotermico/Activitys/TelaNovoAlarme.java
- com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme
- com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$1
- com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$2
- com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme$3
+com/caio/mendes/tratamentotermico/Activitys/TelaPrincipal.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal
+ com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal$2
+ com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal$3
+com/caio/mendes/tratamentotermico/Activitys/TelaOffSet.java
+ com.caio.mendes.tratamentotermico.Activitys.TelaOffSet
+ com.caio.mendes.tratamentotermico.Activitys.TelaOffSet$1
+ com.caio.mendes.tratamentotermico.Activitys.TelaOffSet$2
+ com.caio.mendes.tratamentotermico.Activitys.TelaOffSet$3

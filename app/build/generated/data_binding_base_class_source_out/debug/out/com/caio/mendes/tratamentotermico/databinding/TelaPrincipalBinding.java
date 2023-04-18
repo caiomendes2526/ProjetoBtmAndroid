@@ -22,12 +22,16 @@ public final class TelaPrincipalBinding implements ViewBinding {
   public final Button btnAlarme;
 
   @NonNull
+  public final Button btnOffSet;
+
+  @NonNull
   public final Button btnTemperatura;
 
   private TelaPrincipalBinding(@NonNull LinearLayout rootView, @NonNull Button btnAlarme,
-      @NonNull Button btnTemperatura) {
+      @NonNull Button btnOffSet, @NonNull Button btnTemperatura) {
     this.rootView = rootView;
     this.btnAlarme = btnAlarme;
+    this.btnOffSet = btnOffSet;
     this.btnTemperatura = btnTemperatura;
   }
 
@@ -64,13 +68,20 @@ public final class TelaPrincipalBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnOffSet;
+      Button btnOffSet = rootView.findViewById(id);
+      if (btnOffSet == null) {
+        break missingId;
+      }
+
       id = R.id.btnTemperatura;
       Button btnTemperatura = rootView.findViewById(id);
       if (btnTemperatura == null) {
         break missingId;
       }
 
-      return new TelaPrincipalBinding((LinearLayout) rootView, btnAlarme, btnTemperatura);
+      return new TelaPrincipalBinding((LinearLayout) rootView, btnAlarme, btnOffSet,
+          btnTemperatura);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

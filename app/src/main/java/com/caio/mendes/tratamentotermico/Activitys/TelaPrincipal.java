@@ -19,6 +19,7 @@ public class TelaPrincipal extends AppCompatActivity {
 
     private Button btnTemperatura;
     private Button btnAlarme;
+    private Button btnOffSet;
 
 
     @Override
@@ -29,6 +30,7 @@ public class TelaPrincipal extends AppCompatActivity {
 
         btnTemperatura = (Button) findViewById(R.id.btnTemperatura);
         btnAlarme = (Button) findViewById(R.id.btnAlarme);
+        btnOffSet = (Button) findViewById(R.id.btnOffSet);
 
 
 
@@ -48,6 +50,14 @@ public class TelaPrincipal extends AppCompatActivity {
             public void onClick(View view) {
                 Intent alarme = new Intent(TelaPrincipal.this, TelaNovoAlarme.class);
                 startActivity(alarme);
+            }
+        });
+
+        btnOffSet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent offset = new Intent(TelaPrincipal.this, TelaOffSet.class);
+                startActivity(offset);
             }
         });
 

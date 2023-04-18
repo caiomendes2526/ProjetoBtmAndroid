@@ -2609,6 +2609,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable offset
 drawable sensor
 drawable splash_bg
 drawable start
@@ -2731,6 +2732,7 @@ id bounceStart
 id btnAlarme
 id btnBuscar
 id btnLogar
+id btnOffSet
 id btnTemperatura
 id buttonPanel
 id button_success
@@ -3121,6 +3123,7 @@ id txtAlarmeAlta
 id txtAlarmeBaixa
 id txtDataFinal
 id txtDataInicial
+id txtOffSet
 id txtSensores
 id txt_message
 id unchecked
@@ -3332,6 +3335,7 @@ layout tela_equipamento
 layout tela_login
 layout tela_nova_equipamentos
 layout tela_novo_alarme
+layout tela_off_set
 layout tela_principal
 layout tela_temperatura
 layout test_action_chip

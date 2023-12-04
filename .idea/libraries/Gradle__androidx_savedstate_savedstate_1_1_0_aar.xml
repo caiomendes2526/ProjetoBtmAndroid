@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.savedstate:savedstate:1.1.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../../gradle-8.0.2/caches/transforms-3/c3c4807d865a3acb469bdbf0069b5b2b/transformed/jetified-savedstate-1.1.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../../gradle-8.0.2/caches/transforms-3/c3c4807d865a3acb469bdbf0069b5b2b/transformed/jetified-savedstate-1.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../../gradle-8.0.2/caches/transforms-3/c3c4807d865a3acb469bdbf0069b5b2b/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b92d512a4322c31abeb3d607432f035a/transformed/jetified-savedstate-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b92d512a4322c31abeb3d607432f035a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b92d512a4322c31abeb3d607432f035a/transformed/jetified-savedstate-1.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../../gradle-8.0.2/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.1.0/73464c2c55129727354a95ffa91dc9c2cf0c78b/savedstate-1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.1.0/73464c2c55129727354a95ffa91dc9c2cf0c78b/savedstate-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

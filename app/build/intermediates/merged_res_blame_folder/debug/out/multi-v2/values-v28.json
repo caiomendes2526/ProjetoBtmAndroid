@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Usuario\\Documents\\GitHub\\Projeto_Start_Temp_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\gradle-8.0.2\\caches\\transforms-3\\89eeb468cff0b47719c2809b3a1a7f74\\transformed\\material-1.6.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\a2a529aa91d13c4ee1f0ef3c4905fc59\\transformed\\material-1.6.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\gradle-8.0.2\\caches\\transforms-3\\804c9f9fb753a15778c24f2f42b86216\\transformed\\appcompat-1.4.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\a0d90f7b7beb1956179c7f7ea9c51479\\transformed\\appcompat-1.4.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

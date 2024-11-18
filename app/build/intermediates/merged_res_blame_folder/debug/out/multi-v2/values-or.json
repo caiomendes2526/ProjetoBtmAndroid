@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
+            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\GitHub\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-or\\values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\caiom\\.jdks\\corretto-11.0.25\\caches\\transforms-3\\b75f819943e5388e1526cd57e75b4e5b\\transformed\\jetified-firebase-messaging-17.3.4\\res\\values-or\\values.xml",

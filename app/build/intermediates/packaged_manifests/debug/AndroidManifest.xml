@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEscolha"
+            android:exported="false" />
+        <activity
             android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaOffSet"
             android:exported="false" />
         <activity

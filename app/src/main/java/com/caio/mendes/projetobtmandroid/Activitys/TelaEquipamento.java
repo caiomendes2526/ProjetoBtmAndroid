@@ -13,6 +13,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.caio.mendes.projetobtmandroid.ListarDados.ListarAdapterEquipamento;
@@ -43,12 +44,15 @@ public class TelaEquipamento extends AppCompatActivity {
 
     public static String Equipamento;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_equipamento);
 
         getSupportActionBar().hide();
+
+
 
         fab_add_equipamento = (ExtendedFloatingActionButton) findViewById(R.id.fab_add_equipamento);
 
@@ -67,6 +71,8 @@ public class TelaEquipamento extends AppCompatActivity {
         condicao = myValue;
 
      //  System.out.println("Minha Váriavel: " + condicao);
+
+
 
 
         if (condicao.equals("1")) {
@@ -93,7 +99,7 @@ public class TelaEquipamento extends AppCompatActivity {
 
                 Equipamento = (String.valueOf(setando.getEquipamento()));
                 System.out.println(Equipamento);
-                Intent intent = new Intent(TelaEquipamento.this, TelaTemperatura.class);
+                Intent intent = new Intent(TelaEquipamento.this, TelaEscolha.class);
                 startActivity(intent);
             }
 

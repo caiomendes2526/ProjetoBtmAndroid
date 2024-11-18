@@ -2512,6 +2512,7 @@ drawable bg_normal
 drawable bg_principal
 drawable bg_text_lista
 drawable bt_id
+drawable bt_velocidade
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2734,6 +2735,7 @@ id btnBuscar
 id btnLogar
 id btnOffSet
 id btnTemperatura
+id btnVelocidade
 id buttonPanel
 id button_success
 id cache_measures
@@ -3332,6 +3334,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tela_dados
 layout tela_equipamento
+layout tela_escolha
 layout tela_login
 layout tela_nova_equipamentos
 layout tela_novo_alarme

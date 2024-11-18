@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\GitHub\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\caiom\\.jdks\\corretto-11.0.25\\caches\\transforms-3\\7ad76898dd2a8f76fedc14cae1795168\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-es\\values.xml",

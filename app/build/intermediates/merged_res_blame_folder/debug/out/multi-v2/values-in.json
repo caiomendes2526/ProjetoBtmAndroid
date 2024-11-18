@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\GitHub\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\caiom\\.jdks\\corretto-11.0.25\\caches\\transforms-3\\d4eee94a3695ee9a938ea7ae2d8ce985\\transformed\\material-1.6.0\\res\\values-in\\values-in.xml",

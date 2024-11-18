@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\GitHub\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\caiom\\.jdks\\corretto-11.0.25\\caches\\transforms-3\\e24c1e7b17c52a506d055447b6967bbd\\transformed\\appcompat-1.4.0\\res\\values-zh-rHK\\values-zh-rHK.xml",

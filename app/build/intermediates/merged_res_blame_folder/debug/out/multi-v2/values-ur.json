@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\GitHub\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\caiom\\.jdks\\corretto-11.0.25\\caches\\transforms-3\\c0b72af10d9ba0073219e8f6f3bf7fc1\\transformed\\navigation-ui-2.3.5\\res\\values-ur\\values-ur.xml",

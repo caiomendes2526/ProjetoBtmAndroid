@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.caio.mendes.tratamentotermico"
+    package="com.caio.mendes.projetobtmandroid"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -28,26 +28,26 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaOffSet"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaOffSet"
             android:exported="false" />
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaNovaEquipamentos"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaNovaEquipamentos"
             android:exported="false" />
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaEquipamento"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEquipamento"
             android:exported="false" />
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaNovoAlarme"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaNovoAlarme"
             android:exported="false" />
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaPrincipal"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaPrincipal"
             android:exported="false" />
-        <activity android:name="com.caio.mendes.tratamentotermico.Activitys.TelaTemperatura" />
+        <activity android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaTemperatura" />
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaDados"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaDados"
             android:exported="true" />
         <activity
-            android:name="com.caio.mendes.tratamentotermico.Activitys.TelaLogin"
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaLogin"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,7 +58,7 @@
 
         <service android:name="org.eclipse.paho.android.service.MqttService" />
         <service
-            android:name="com.caio.mendes.tratamentotermico.MyFirebaseNotification.MyFirebaseMessagingService"
+            android:name="com.caio.mendes.projetobtmandroid.MyFirebaseNotification.MyFirebaseMessagingService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -122,7 +122,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.caio.mendes.tratamentotermico.firebaseinitprovider"
+            android:authorities="com.caio.mendes.projetobtmandroid.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -137,7 +137,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.caio.mendes.tratamentotermico.androidx-startup"
+            android:authorities="com.caio.mendes.projetobtmandroid.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

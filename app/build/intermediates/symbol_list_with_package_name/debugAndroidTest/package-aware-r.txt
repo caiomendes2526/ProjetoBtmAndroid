@@ -1,1 +1,1 @@
-com.caio.mendes.tratamentotermico.test
+com.caio.mendes.projetobtmandroid.test

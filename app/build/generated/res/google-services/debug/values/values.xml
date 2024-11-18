@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">339885328410-55i0el7qvodkauhd4o9gr3b1ajsngnfv.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">339885328410</string>
-    <string name="google_api_key" translatable="false">AIzaSyCJneL-_7WMWOq5sUcCcSKTtnZXsctIkL4</string>
-    <string name="google_app_id" translatable="false">1:339885328410:android:1692ed13d214fc9d5ca9a3</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJneL-_7WMWOq5sUcCcSKTtnZXsctIkL4</string>
-    <string name="google_storage_bucket" translatable="false">projeto-forno-f61d0.appspot.com</string>
-    <string name="project_id" translatable="false">projeto-forno-f61d0</string>
+    <string name="gcm_defaultSenderId" translatable="false">304648862460</string>
+    <string name="google_api_key" translatable="false">AIzaSyAkb6zVxo_YLzBKRIwf1Cp5D3d22Giqpo8</string>
+    <string name="google_app_id" translatable="false">1:304648862460:android:c07e3ddc59fb64f8557579</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAkb6zVxo_YLzBKRIwf1Cp5D3d22Giqpo8</string>
+    <string name="google_storage_bucket" translatable="false">projetobtmandroid.firebasestorage.app</string>
+    <string name="project_id" translatable="false">projetobtmandroid</string>
 </resources>

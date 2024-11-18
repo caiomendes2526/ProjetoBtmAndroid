@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "339885328410",
-    "project_id": "projeto-forno-f61d0",
-    "storage_bucket": "projeto-forno-f61d0.appspot.com"
+    "project_number": "304648862460",
+    "project_id": "projetobtmandroid",
+    "storage_bucket": "projetobtmandroid.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:339885328410:android:1692ed13d214fc9d5ca9a3",
+        "mobilesdk_app_id": "1:304648862460:android:c07e3ddc59fb64f8557579",
         "android_client_info": {
-          "package_name": "com.caio.mendes.tratamentotermico"
+          "package_name": "com.caio.mendes.projetobtmandroid"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "339885328410-55i0el7qvodkauhd4o9gr3b1ajsngnfv.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCJneL-_7WMWOq5sUcCcSKTtnZXsctIkL4"
+          "current_key": "AIzaSyAkb6zVxo_YLzBKRIwf1Cp5D3d22Giqpo8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "339885328410-55i0el7qvodkauhd4o9gr3b1ajsngnfv.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

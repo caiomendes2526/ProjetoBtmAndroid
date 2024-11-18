@@ -10,5 +10,5 @@ dependencyResolutionManagement {
 
     }
 }
-rootProject.name = "Tratamento Termico"
+rootProject.name = "ProjetoBtmAndroid"
 include ':app'

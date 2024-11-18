@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tratamento_Termico.iml" filepath="$PROJECT_DIR$/.idea/modules/Tratamento_Termico.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tratamento_Termico.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProjetoBtmAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/ProjetoBtmAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ProjetoBtmAndroid.app.unitTest.iml" />
     </modules>
   </component>
 </project>

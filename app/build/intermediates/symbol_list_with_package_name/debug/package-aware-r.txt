@@ -1,4 +1,4 @@
-com.caio.mendes.tratamentotermico
+com.caio.mendes.projetobtmandroid
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3418,7 +3418,6 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_notification_channel_id
-string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -4125,8 +4124,8 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_ProjetoInbraferForno
 style Theme_SplashScreen
-style Theme_TratamentoTermico
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

@@ -1,11 +1,11 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.firebase:firebase-iid:17.0.4@aar">
+  <library name="Gradle: com.google.firebase:firebase-iid:17.0.4@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9d5c1637900a92005e1b53a11dd6eec6/transformed/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9d5c1637900a92005e1b53a11dd6eec6/transformed/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.jdks/corretto-11.0.25/caches/transforms-3/e238cd515ce69097c42ebdb0fd55c6ba/transformed/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.jdks/corretto-11.0.25/caches/transforms-3/e238cd515ce69097c42ebdb0fd55c6ba/transformed/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-iid/17.0.4/52a3baef73be52e5197545247e6590b897bec788/firebase-iid-17.0.4-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.jdks/corretto-11.0.25/caches/modules-2/files-2.1/com.google.firebase/firebase-iid/17.0.4/52a3baef73be52e5197545247e6590b897bec788/firebase-iid-17.0.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

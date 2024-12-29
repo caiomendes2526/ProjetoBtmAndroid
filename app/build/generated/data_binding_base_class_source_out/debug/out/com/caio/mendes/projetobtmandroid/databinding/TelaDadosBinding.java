@@ -11,6 +11,7 @@ import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -74,31 +75,31 @@ public final class TelaDadosBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.ListViewDados;
-      ListView ListViewDados = rootView.findViewById(id);
+      ListView ListViewDados = ViewBindings.findChildViewById(rootView, id);
       if (ListViewDados == null) {
         break missingId;
       }
 
       id = R.id.btnBuscar;
-      Button btnBuscar = rootView.findViewById(id);
+      Button btnBuscar = ViewBindings.findChildViewById(rootView, id);
       if (btnBuscar == null) {
         break missingId;
       }
 
       id = R.id.swipe_container;
-      LinearLayout swipeContainer = rootView.findViewById(id);
+      LinearLayout swipeContainer = ViewBindings.findChildViewById(rootView, id);
       if (swipeContainer == null) {
         break missingId;
       }
 
       id = R.id.txtDataFinal;
-      EditText txtDataFinal = rootView.findViewById(id);
+      EditText txtDataFinal = ViewBindings.findChildViewById(rootView, id);
       if (txtDataFinal == null) {
         break missingId;
       }
 
       id = R.id.txtDataInicial;
-      EditText txtDataInicial = rootView.findViewById(id);
+      EditText txtDataInicial = ViewBindings.findChildViewById(rootView, id);
       if (txtDataInicial == null) {
         break missingId;
       }

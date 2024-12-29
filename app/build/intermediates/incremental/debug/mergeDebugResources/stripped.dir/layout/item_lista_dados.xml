@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/itemSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ZONA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/sensor"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/itemTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" TEMPERATURA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:drawableLeft="@drawable/temp"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/itemData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" DATA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:drawableLeft="@drawable/calendario"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+</LinearLayout>

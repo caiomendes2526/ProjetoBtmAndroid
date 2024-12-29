@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -63,19 +64,19 @@ public final class ItemListaUltimaTempBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.itemData;
-      TextView itemData = rootView.findViewById(id);
+      TextView itemData = ViewBindings.findChildViewById(rootView, id);
       if (itemData == null) {
         break missingId;
       }
 
       id = R.id.itemSensor;
-      TextView itemSensor = rootView.findViewById(id);
+      TextView itemSensor = ViewBindings.findChildViewById(rootView, id);
       if (itemSensor == null) {
         break missingId;
       }
 
       id = R.id.itemTemperatura;
-      TextView itemTemperatura = rootView.findViewById(id);
+      TextView itemTemperatura = ViewBindings.findChildViewById(rootView, id);
       if (itemTemperatura == null) {
         break missingId;
       }

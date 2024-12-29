@@ -4,7 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="26"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="33" />
 
     <instrumentation
         android:name="androidx.test.runner.AndroidJUnitRunner"
@@ -21,7 +21,9 @@
         <package android:name="com.google.android.apps.common.testing.services" />
     </queries>
 
-    <application android:debuggable="true" >
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="false" >
         <uses-library android:name="android.test.runner" />
 
         <activity

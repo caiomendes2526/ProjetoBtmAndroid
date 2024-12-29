@@ -22,12 +22,23 @@ public class TelaEscolha extends AppCompatActivity {
         setContentView(R.layout.tela_escolha);
 
         btnTemperatura = (Button) findViewById(R.id.btnTemperatura);
+        btnVelocidade = (Button) findViewById(R.id.btnVelocidade);
 
         btnTemperatura.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent(TelaEscolha.this, TelaTemperatura.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btnVelocidade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(TelaEscolha.this, TelaVelocidade.class);
                 startActivity(intent);
 
             }

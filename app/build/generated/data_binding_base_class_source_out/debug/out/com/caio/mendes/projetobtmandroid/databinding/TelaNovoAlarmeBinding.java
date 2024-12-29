@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -70,25 +71,25 @@ public final class TelaNovoAlarmeBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnAlarme;
-      Button btnAlarme = rootView.findViewById(id);
+      Button btnAlarme = ViewBindings.findChildViewById(rootView, id);
       if (btnAlarme == null) {
         break missingId;
       }
 
       id = R.id.txtAlarmeAlta;
-      EditText txtAlarmeAlta = rootView.findViewById(id);
+      EditText txtAlarmeAlta = ViewBindings.findChildViewById(rootView, id);
       if (txtAlarmeAlta == null) {
         break missingId;
       }
 
       id = R.id.txtAlarmeBaixa;
-      EditText txtAlarmeBaixa = rootView.findViewById(id);
+      EditText txtAlarmeBaixa = ViewBindings.findChildViewById(rootView, id);
       if (txtAlarmeBaixa == null) {
         break missingId;
       }
 
       id = R.id.txtSensores;
-      TextView txtSensores = rootView.findViewById(id);
+      TextView txtSensores = ViewBindings.findChildViewById(rootView, id);
       if (txtSensores == null) {
         break missingId;
       }

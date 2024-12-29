@@ -1,2 +1,0 @@
-com/caio/mendes/tratamentotermico/ExampleUnitTest.java
- com.caio.mendes.tratamentotermico.ExampleUnitTest

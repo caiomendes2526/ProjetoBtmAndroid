@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -63,19 +64,19 @@ public final class TelaPrincipalBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnAlarme;
-      Button btnAlarme = rootView.findViewById(id);
+      Button btnAlarme = ViewBindings.findChildViewById(rootView, id);
       if (btnAlarme == null) {
         break missingId;
       }
 
       id = R.id.btnOffSet;
-      Button btnOffSet = rootView.findViewById(id);
+      Button btnOffSet = ViewBindings.findChildViewById(rootView, id);
       if (btnOffSet == null) {
         break missingId;
       }
 
       id = R.id.btnTemperatura;
-      Button btnTemperatura = rootView.findViewById(id);
+      Button btnTemperatura = ViewBindings.findChildViewById(rootView, id);
       if (btnTemperatura == null) {
         break missingId;
       }

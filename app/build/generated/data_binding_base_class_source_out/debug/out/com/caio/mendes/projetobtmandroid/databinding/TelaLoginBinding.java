@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -60,13 +61,13 @@ public final class TelaLoginBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnLogar;
-      Button btnLogar = rootView.findViewById(id);
+      Button btnLogar = ViewBindings.findChildViewById(rootView, id);
       if (btnLogar == null) {
         break missingId;
       }
 
       id = R.id.editSenhaLogar;
-      EditText editSenhaLogar = rootView.findViewById(id);
+      EditText editSenhaLogar = ViewBindings.findChildViewById(rootView, id);
       if (editSenhaLogar == null) {
         break missingId;
       }

@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="26"
 8-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="33" />
 9-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -22,249 +22,352 @@
 14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 14-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:8:5-75
 14-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:8:22-72
-15
-16    <!-- Required by older versions of Google Play services to create IID tokens -->
-17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-17-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
-17-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
-18
-19    <application
-19-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:10:5-74:19
-20        android:allowBackup="true"
-20-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:11:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e01e4de392d20225ffcaecc624fe0e94\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:extractNativeLibs="false"
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:12:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:13:9-41
-26        android:roundIcon="@mipmap/logotipo"
-26-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:14:9-45
-27        android:supportsRtl="true"
-27-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:15:9-35
-28        android:testOnly="true"
-29        android:theme="@style/AppTheme" >
-29-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:16:9-40
-30        <activity
-30-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:17:9-19:40
-31            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEscolha"
-31-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:18:13-50
-32            android:exported="false" />
-32-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:19:13-37
-33        <activity
-33-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:20:9-22:40
-34            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaOffSet"
-34-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:21:13-49
-35            android:exported="false" />
-35-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:22:13-37
-36        <activity
-36-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:23:9-25:40
-37            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaNovaEquipamentos"
-37-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:24:13-59
-38            android:exported="false" />
-38-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:25:13-37
-39        <activity
-39-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:26:9-28:40
-40            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEquipamento"
-40-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:27:13-54
-41            android:exported="false" />
-41-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:28:13-37
-42        <activity
-42-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:29:9-31:40
-43            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaNovoAlarme"
-43-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:30:13-53
-44            android:exported="false" />
-44-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:31:13-37
-45        <activity
-45-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:32:9-34:40
-46            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaPrincipal"
-46-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:33:13-52
-47            android:exported="false" />
-47-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:34:13-37
-48        <activity android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaTemperatura" />
-48-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:35:9-63
-48-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:35:19-60
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:25:5-77
+15-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:25:22-74
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:28:5-82
+16-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:28:22-79
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] C:\Users\caiom\.gradle\caches\transforms-3\b1983f33827a0fe68fd03d1302d7d619\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.caio.mendes.projetobtmandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] C:\Users\caiom\.gradle\caches\transforms-3\b1983f33827a0fe68fd03d1302d7d619\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] C:\Users\caiom\.gradle\caches\transforms-3\b1983f33827a0fe68fd03d1302d7d619\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.caio.mendes.projetobtmandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] C:\Users\caiom\.gradle\caches\transforms-3\b1983f33827a0fe68fd03d1302d7d619\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] C:\Users\caiom\.gradle\caches\transforms-3\b1983f33827a0fe68fd03d1302d7d619\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:10:5-77:19
+25        android:allowBackup="true"
+25-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:11:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] C:\Users\caiom\.gradle\caches\transforms-3\b1983f33827a0fe68fd03d1302d7d619\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:12:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:13:9-41
+31        android:roundIcon="@mipmap/logotipo"
+31-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:14:9-45
+32        android:supportsRtl="true"
+32-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:15:9-35
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:16:9-40
+34        <activity
+34-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:17:9-19:40
+35            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaVelocidade"
+35-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:18:13-53
+36            android:exported="false" />
+36-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:19:13-37
+37        <activity
+37-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:20:9-22:40
+38            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEscolha"
+38-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:21:13-50
+39            android:exported="false" />
+39-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:22:13-37
+40        <activity
+40-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:23:9-25:40
+41            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaOffSet"
+41-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:24:13-49
+42            android:exported="false" />
+42-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:25:13-37
+43        <activity
+43-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:26:9-28:40
+44            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaNovaEquipamentos"
+44-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:27:13-59
+45            android:exported="false" />
+45-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:28:13-37
+46        <activity
+46-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:29:9-31:40
+47            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEquipamento"
+47-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:30:13-54
+48            android:exported="false" />
+48-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:31:13-37
 49        <activity
-49-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:36:9-38:39
-50            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaDados"
-50-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:37:13-48
-51            android:exported="true" />
-51-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:38:13-36
+49-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:32:9-34:40
+50            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaNovoAlarme"
+50-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:33:13-53
+51            android:exported="false" />
+51-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:34:13-37
 52        <activity
-52-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:39:9-47:20
-53            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaLogin"
-53-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:40:13-48
-54            android:exported="true" >
-54-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:41:13-36
-55            <intent-filter>
-55-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:42:13-46:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:43:17-69
-56-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:43:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:45:17-77
-58-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:45:27-74
-59            </intent-filter>
-60        </activity>
-61
-62        <service android:name="org.eclipse.paho.android.service.MqttService" />
-62-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:49:9-80
-62-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:49:18-77
-63        <service
-63-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:50:9-56:19
-64            android:name="com.caio.mendes.projetobtmandroid.MyFirebaseNotification.MyFirebaseMessagingService"
-64-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:51:13-78
-65            android:exported="false" >
-65-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:52:13-37
-66            <intent-filter>
-66-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:53:13-55:29
-67                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-67-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:54:17-78
-67-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:54:25-75
-68            </intent-filter>
-69        </service>
-70        <!--
-71        Set custom default icon. This is used when no icon is set for incoming notification messages.
-72        See README(https://goo.gl/l4GJaQ) for more.
-73        -->
-74        <meta-data
-74-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:61:9-63:51
-75            android:name="com.google.firebase.messaging.default_notification_icon"
-75-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:62:13-83
-76            android:resource="@drawable/alerta" />
-76-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:63:13-48
+52-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:35:9-37:40
+53            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaPrincipal"
+53-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:36:13-52
+54            android:exported="false" />
+54-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:37:13-37
+55        <activity android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaTemperatura" />
+55-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:38:9-63
+55-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:38:19-60
+56        <activity
+56-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:39:9-41:39
+57            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaDados"
+57-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:40:13-48
+58            android:exported="true" />
+58-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:41:13-36
+59        <activity
+59-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:42:9-50:20
+60            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaLogin"
+60-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:43:13-48
+61            android:exported="true" >
+61-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:44:13-36
+62            <intent-filter>
+62-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:45:13-49:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:46:17-69
+63-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:46:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:48:17-77
+65-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:48:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <service android:name="org.eclipse.paho.android.service.MqttService" />
+69-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:52:9-80
+69-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:52:18-77
+70        <service
+70-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:53:9-59:19
+71            android:name="com.caio.mendes.projetobtmandroid.MyFirebaseNotification.MyFirebaseMessagingService"
+71-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:54:13-78
+72            android:exported="false" >
+72-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:55:13-37
+73            <intent-filter>
+73-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:56:13-58:29
+74                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+74-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:57:17-78
+74-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:57:25-75
+75            </intent-filter>
+76        </service>
 77        <!--
-78 Set color used with incoming notification messages. This is used when no color is set for the incoming
-79             notification message. See README(https://goo.gl/6BKBk7) for more.
+78        Set custom default icon. This is used when no icon is set for incoming notification messages.
+79        See README(https://goo.gl/l4GJaQ) for more.
 80        -->
 81        <meta-data
-81-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:68:9-70:67
-82            android:name="com.google.firebase.messaging.default_notification_color"
-82-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:69:13-84
-83            android:resource="@color/cardview_light_background" />
-83-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:70:13-64
-84        <meta-data
-84-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:71:9-73:71
-85            android:name="com.google.firebase.messaging.default_notification_channel_id"
-85-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:72:13-89
-86            android:value="@string/default_notification_channel_id" />
-86-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:73:13-68
-87        <!--
-88             FirebaseMessagingService performs security checks at runtime,
-89             no need for explicit permissions despite exported="true"
-90        -->
-91        <service
-91-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b75f819943e5388e1526cd57e75b4e5b\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
-92            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-92-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b75f819943e5388e1526cd57e75b4e5b\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
-93            android:exported="true" >
-93-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b75f819943e5388e1526cd57e75b4e5b\transformed\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
-94            <intent-filter android:priority="-500" >
-94-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:53:13-55:29
-95                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-95-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:54:17-78
-95-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:54:25-75
-96            </intent-filter>
-97        </service>
-98        <service
-98-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
-99            android:name="com.google.firebase.components.ComponentDiscoveryService"
-99-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
-100            android:exported="false" >
-100-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
-101            <meta-data
-101-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
-102                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-102-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
-103                android:value="com.google.firebase.components.ComponentRegistrar" />
-103-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
-104        </service>
-105
-106        <receiver
-106-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
-107            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-107-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
-108            android:exported="true"
-108-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
-109            android:permission="com.google.android.c2dm.permission.SEND" >
-109-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
-110            <intent-filter>
-110-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
-111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-111-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
-111-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
-112            </intent-filter>
-113        </receiver>
-114        <!--
-115             FirebaseInstanceIdService performs security checks at runtime,
-116             no need for explicit permissions despite exported="true"
-117        -->
-118        <service
-118-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
-119            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-119-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
-120            android:exported="true" >
-120-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
-121            <intent-filter android:priority="-500" >
-121-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
-121-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
-122                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-122-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
-122-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e238cd515ce69097c42ebdb0fd55c6ba\transformed\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
-123            </intent-filter>
-124        </service>
-125
-126        <provider
-126-->[com.google.firebase:firebase-common:16.0.3] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e027a438e51c9f0f9fde56958fed0fca\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-127            android:name="com.google.firebase.provider.FirebaseInitProvider"
-127-->[com.google.firebase:firebase-common:16.0.3] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e027a438e51c9f0f9fde56958fed0fca\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-128            android:authorities="com.caio.mendes.projetobtmandroid.firebaseinitprovider"
-128-->[com.google.firebase:firebase-common:16.0.3] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e027a438e51c9f0f9fde56958fed0fca\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-129            android:exported="false"
-129-->[com.google.firebase:firebase-common:16.0.3] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e027a438e51c9f0f9fde56958fed0fca\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-130            android:initOrder="100" />
-130-->[com.google.firebase:firebase-common:16.0.3] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\e027a438e51c9f0f9fde56958fed0fca\transformed\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-131
-132        <activity
-132-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b1423016a25667c5e870ca4ab93290d0\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-133-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b1423016a25667c5e870ca4ab93290d0\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-134            android:exported="false"
-134-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b1423016a25667c5e870ca4ab93290d0\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-135-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\b1423016a25667c5e870ca4ab93290d0\transformed\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-136
-137        <meta-data
-137-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\7ad76898dd2a8f76fedc14cae1795168\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-138            android:name="com.google.android.gms.version"
-138-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\7ad76898dd2a8f76fedc14cae1795168\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-139            android:value="@integer/google_play_services_version" />
-139-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\7ad76898dd2a8f76fedc14cae1795168\transformed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-140
-141        <provider
-141-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-142            android:name="androidx.startup.InitializationProvider"
-142-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-143            android:authorities="com.caio.mendes.projetobtmandroid.androidx-startup"
-143-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-144            android:exported="false" >
-144-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-145            <meta-data
-145-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-146                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-146-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-147                android:value="androidx.startup" />
-147-->[androidx.emoji2:emoji2:1.0.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\38db8dbd1a43efd6a8f233e102ff36aa\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-148            <meta-data
-148-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\d41250428bfbaf6a08878bc99a3bf597\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-149                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-149-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\d41250428bfbaf6a08878bc99a3bf597\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-150                android:value="androidx.startup" />
-150-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\caiom\.jdks\corretto-11.0.25\caches\transforms-3\d41250428bfbaf6a08878bc99a3bf597\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-151        </provider>
-152    </application>
-153
-154</manifest>
+81-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:64:9-66:51
+82            android:name="com.google.firebase.messaging.default_notification_icon"
+82-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:65:13-83
+83            android:resource="@drawable/alerta" />
+83-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:66:13-48
+84        <!--
+85 Set color used with incoming notification messages. This is used when no color is set for the incoming
+86             notification message. See README(https://goo.gl/6BKBk7) for more.
+87        -->
+88        <meta-data
+88-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:71:9-73:67
+89            android:name="com.google.firebase.messaging.default_notification_color"
+89-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:72:13-84
+90            android:resource="@color/cardview_light_background" />
+90-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:73:13-64
+91        <meta-data
+91-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:74:9-76:71
+92            android:name="com.google.firebase.messaging.default_notification_channel_id"
+92-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:75:13-89
+93            android:value="@string/default_notification_channel_id" />
+93-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:76:13-68
+94
+95        <receiver
+95-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:31:9-38:20
+96            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+96-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:32:13-78
+97            android:exported="true"
+97-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:33:13-36
+98            android:permission="com.google.android.c2dm.permission.SEND" >
+98-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:34:13-73
+99            <intent-filter>
+99-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:35:13-37:29
+100                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+100-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:36:17-81
+100-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:36:25-78
+101            </intent-filter>
+102        </receiver>
+103        <!--
+104             FirebaseMessagingService performs security checks at runtime,
+105             but set to not exported to explicitly avoid allowing another app to call it.
+106        -->
+107        <service
+107-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:44:9-51:19
+108            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+108-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:45:13-82
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:46:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:47:13-37
+111            <intent-filter android:priority="-500" >
+111-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:56:13-58:29
+112                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+112-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:57:17-78
+112-->C:\Users\caiom\OneDrive\Documentos\GitHub\ProjetoBtmAndroid\app\src\main\AndroidManifest.xml:57:25-75
+113            </intent-filter>
+114        </service>
+115        <service
+115-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:52:9-58:19
+116            android:name="com.google.firebase.components.ComponentDiscoveryService"
+116-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:53:13-84
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:54:13-37
+119            <meta-data
+119-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:55:13-57:85
+120                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+120-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:56:17-119
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-messaging:23.2.0] C:\Users\caiom\.gradle\caches\transforms-3\b22ddac8b63411baf380ac6a4bc49c54\transformed\jetified-firebase-messaging-23.2.0\AndroidManifest.xml:57:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\caiom\.gradle\caches\transforms-3\1cfcac89650782ab648fdfc0c4693d11\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+123                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+123-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\caiom\.gradle\caches\transforms-3\1cfcac89650782ab648fdfc0c4693d11\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\caiom\.gradle\caches\transforms-3\1cfcac89650782ab648fdfc0c4693d11\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\caiom\.gradle\caches\transforms-3\e15a6560ff57c385ca00e1e6e62474ca\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+126                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+126-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\caiom\.gradle\caches\transforms-3\e15a6560ff57c385ca00e1e6e62474ca\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\caiom\.gradle\caches\transforms-3\e15a6560ff57c385ca00e1e6e62474ca\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+128        </service>
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\caiom\.gradle\caches\transforms-3\74ee7df7363ad9781cba1c2fc0704374\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\caiom\.gradle\caches\transforms-3\74ee7df7363ad9781cba1c2fc0704374\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\caiom\.gradle\caches\transforms-3\74ee7df7363ad9781cba1c2fc0704374\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\caiom\.gradle\caches\transforms-3\74ee7df7363ad9781cba1c2fc0704374\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+134
+135        <provider
+135-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+136            android:name="com.google.firebase.provider.FirebaseInitProvider"
+136-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+137            android:authorities="com.caio.mendes.projetobtmandroid.firebaseinitprovider"
+137-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:20.3.3] C:\Users\caiom\.gradle\caches\transforms-3\92de996f4a75f5a4b30211d8301f5878\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\caiom\.gradle\caches\transforms-3\c0c6dca57ee89f4bd93890549b1fc49b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\caiom\.gradle\caches\transforms-3\c0c6dca57ee89f4bd93890549b1fc49b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\caiom\.gradle\caches\transforms-3\c0c6dca57ee89f4bd93890549b1fc49b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+145
+146        <provider
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+147            android:name="androidx.startup.InitializationProvider"
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+148            android:authorities="com.caio.mendes.projetobtmandroid.androidx-startup"
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+149            android:exported="false" >
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+150            <meta-data
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+152                android:value="androidx.startup" />
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\caiom\.gradle\caches\transforms-3\9e09f71c6542c06c2226feb07a453ad7\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+153            <meta-data
+153-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\caiom\.gradle\caches\transforms-3\7e601f4e9f26fca50806d5102bdb4cf1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+154-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\caiom\.gradle\caches\transforms-3\7e601f4e9f26fca50806d5102bdb4cf1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+155                android:value="androidx.startup" />
+155-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\caiom\.gradle\caches\transforms-3\7e601f4e9f26fca50806d5102bdb4cf1\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+158                android:value="androidx.startup" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+159        </provider>
+160
+161        <uses-library
+161-->[androidx.window:window:1.0.0] C:\Users\caiom\.gradle\caches\transforms-3\d6dbdefec3328318134c293c52dcb032\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+162            android:name="androidx.window.extensions"
+162-->[androidx.window:window:1.0.0] C:\Users\caiom\.gradle\caches\transforms-3\d6dbdefec3328318134c293c52dcb032\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+163            android:required="false" />
+163-->[androidx.window:window:1.0.0] C:\Users\caiom\.gradle\caches\transforms-3\d6dbdefec3328318134c293c52dcb032\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+164        <uses-library
+164-->[androidx.window:window:1.0.0] C:\Users\caiom\.gradle\caches\transforms-3\d6dbdefec3328318134c293c52dcb032\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+165            android:name="androidx.window.sidecar"
+165-->[androidx.window:window:1.0.0] C:\Users\caiom\.gradle\caches\transforms-3\d6dbdefec3328318134c293c52dcb032\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+166            android:required="false" />
+166-->[androidx.window:window:1.0.0] C:\Users\caiom\.gradle\caches\transforms-3\d6dbdefec3328318134c293c52dcb032\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+167
+168        <service
+168-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\cf5d836855313a229b08c0f83e9b1d4d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+169            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+169-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\cf5d836855313a229b08c0f83e9b1d4d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+170            android:exported="false" >
+170-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\cf5d836855313a229b08c0f83e9b1d4d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+171            <meta-data
+171-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\cf5d836855313a229b08c0f83e9b1d4d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+172                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+172-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\cf5d836855313a229b08c0f83e9b1d4d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+173                android:value="cct" />
+173-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\cf5d836855313a229b08c0f83e9b1d4d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+174        </service>
+175        <service
+175-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+176            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+176-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+177            android:exported="false"
+177-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+178            android:permission="android.permission.BIND_JOB_SERVICE" >
+178-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+179        </service>
+180
+181        <receiver
+181-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+182            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+182-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+183            android:exported="false" />
+183-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\caiom\.gradle\caches\transforms-3\c6efcc939acf3d7b1ac28275368e05f7\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+184        <receiver
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+185            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+186            android:directBootAware="false"
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+187            android:enabled="true"
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+188            android:exported="true"
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+189            android:permission="android.permission.DUMP" >
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+190            <intent-filter>
+190-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+191                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+192            </intent-filter>
+193            <intent-filter>
+193-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+194                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+195            </intent-filter>
+196            <intent-filter>
+196-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+197                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+198            </intent-filter>
+199            <intent-filter>
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+200                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\caiom\.gradle\caches\transforms-3\85c8d7697ec5bd8a0910664d224ffddf\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+201            </intent-filter>
+202        </receiver>
+203    </application>
+204
+205</manifest>

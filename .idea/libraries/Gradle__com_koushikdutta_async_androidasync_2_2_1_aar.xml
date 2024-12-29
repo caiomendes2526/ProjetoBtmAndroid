@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.koushikdutta.async:androidasync:2.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.jdks/corretto-11.0.25/caches/transforms-3/8ce90563a8da0bc620679ff3c8c83a49/transformed/jetified-androidasync-2.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.jdks/corretto-11.0.25/caches/transforms-3/8ce90563a8da0bc620679ff3c8c83a49/transformed/jetified-androidasync-2.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cfec6177cd96c10d9043f6cf551f93a7/transformed/jetified-androidasync-2.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cfec6177cd96c10d9043f6cf551f93a7/transformed/jetified-androidasync-2.2.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.jdks/corretto-11.0.25/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/5adc1627a3fe108354d7013e0d7474b516590521/androidasync-2.2.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/5adc1627a3fe108354d7013e0d7474b516590521/androidasync-2.2.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.jdks/corretto-11.0.25/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/1af6c988cb07bcd8c086c4f5dbc48aa625316aa6/androidasync-2.2.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/1af6c988cb07bcd8c086c4f5dbc48aa625316aa6/androidasync-2.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

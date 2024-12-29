@@ -9,6 +9,7 @@ import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -59,7 +60,7 @@ public final class TelaTemperaturaBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.ListViewUltimaTemp;
-      ListView ListViewUltimaTemp = rootView.findViewById(id);
+      ListView ListViewUltimaTemp = ViewBindings.findChildViewById(rootView, id);
       if (ListViewUltimaTemp == null) {
         break missingId;
       }

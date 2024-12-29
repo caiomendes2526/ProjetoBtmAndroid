@@ -1,4 +1,0 @@
-com/caio/mendes/tratamentotermico/test/BuildConfig.java
- com.caio.mendes.tratamentotermico.test.BuildConfig
-com/caio/mendes/tratamentotermico/ExampleInstrumentedTest.java
- com.caio.mendes.tratamentotermico.ExampleInstrumentedTest

@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -65,19 +66,19 @@ public final class TelaOffSetBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnOffSet;
-      Button btnOffSet = rootView.findViewById(id);
+      Button btnOffSet = ViewBindings.findChildViewById(rootView, id);
       if (btnOffSet == null) {
         break missingId;
       }
 
       id = R.id.txtOffSet;
-      EditText txtOffSet = rootView.findViewById(id);
+      EditText txtOffSet = ViewBindings.findChildViewById(rootView, id);
       if (txtOffSet == null) {
         break missingId;
       }
 
       id = R.id.txtSensores;
-      TextView txtSensores = rootView.findViewById(id);
+      TextView txtSensores = ViewBindings.findChildViewById(rootView, id);
       if (txtSensores == null) {
         break missingId;
       }

@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\caiom\\OneDrive\\Documentos\\GitHub\\ProjetoBtmAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-48:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\caiom\\.jdks\\corretto-11.0.25\\caches\\transforms-3\\e24c1e7b17c52a506d055447b6967bbd\\transformed\\appcompat-1.4.0\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\caiom\\.gradle\\caches\\transforms-3\\06c06193f8ae893c70221b5e19e201e9\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
+                        "startOffsets": "55,130,217,487",
                         "endLines": "2,3,8,13",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
+                        "endOffsets": "125,212,482,764"
                     }
                 }
             ]

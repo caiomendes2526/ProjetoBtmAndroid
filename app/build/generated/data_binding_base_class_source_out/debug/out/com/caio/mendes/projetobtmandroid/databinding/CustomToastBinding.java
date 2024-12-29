@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -64,7 +65,7 @@ public final class CustomToastBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.button_success;
-      ImageView buttonSuccess = rootView.findViewById(id);
+      ImageView buttonSuccess = ViewBindings.findChildViewById(rootView, id);
       if (buttonSuccess == null) {
         break missingId;
       }
@@ -72,7 +73,7 @@ public final class CustomToastBinding implements ViewBinding {
       LinearLayout containerToast = (LinearLayout) rootView;
 
       id = R.id.txt_message;
-      TextView txtMessage = rootView.findViewById(id);
+      TextView txtMessage = ViewBindings.findChildViewById(rootView, id);
       if (txtMessage == null) {
         break missingId;
       }

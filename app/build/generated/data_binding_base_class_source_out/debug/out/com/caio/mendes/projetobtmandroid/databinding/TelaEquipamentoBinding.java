@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import java.lang.NullPointerException;
@@ -61,13 +62,13 @@ public final class TelaEquipamentoBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.ListViewEquipamento;
-      ListView ListViewEquipamento = rootView.findViewById(id);
+      ListView ListViewEquipamento = ViewBindings.findChildViewById(rootView, id);
       if (ListViewEquipamento == null) {
         break missingId;
       }
 
       id = R.id.fab_add_equipamento;
-      ExtendedFloatingActionButton fabAddEquipamento = rootView.findViewById(id);
+      ExtendedFloatingActionButton fabAddEquipamento = ViewBindings.findChildViewById(rootView, id);
       if (fabAddEquipamento == null) {
         break missingId;
       }

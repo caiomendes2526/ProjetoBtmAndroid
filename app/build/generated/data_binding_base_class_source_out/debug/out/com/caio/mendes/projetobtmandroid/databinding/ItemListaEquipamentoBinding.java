@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.caio.mendes.projetobtmandroid.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -55,7 +56,7 @@ public final class ItemListaEquipamentoBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.itemEquipamento;
-      TextView itemEquipamento = rootView.findViewById(id);
+      TextView itemEquipamento = ViewBindings.findChildViewById(rootView, id);
       if (itemEquipamento == null) {
         break missingId;
       }

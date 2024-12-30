@@ -30,6 +30,7 @@ drawable button_principal
 drawable calendario
 drawable dados
 drawable forno
+drawable graficorpm
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
 drawable ic_launcher_background
@@ -39,6 +40,7 @@ drawable icon_mais
 drawable inbrafer
 drawable logo_start
 drawable logotipo_background
+drawable minivelocimetro
 drawable offset
 drawable sensor
 drawable splash_bg
@@ -51,11 +53,14 @@ drawable termometer
 drawable toast_
 drawable toast_success
 drawable usuario
+drawable velocidade
 id ListViewDados
+id ListViewDadosVelocidade
 id ListViewEquipamento
 id ListViewUltimaTemp
 id btnAlarme
 id btnBuscar
+id btnGraficoRpm
 id btnLogar
 id btnOffSet
 id btnTemperatura
@@ -68,7 +73,7 @@ id itemData
 id itemEquipamento
 id itemSensor
 id itemTemperatura
-id main
+id itemVelocidade
 id swipe_container
 id txtAlarmeAlta
 id txtAlarmeBaixa
@@ -81,9 +86,11 @@ id txtSensores
 id txt_message
 layout custom_toast
 layout item_lista_dados
+layout item_lista_dados_velocidade
 layout item_lista_equipamento
 layout item_lista_ultima_temp
 layout tela_dados
+layout tela_dados_velocidade
 layout tela_equipamento
 layout tela_escolha
 layout tela_login

@@ -36,6 +36,9 @@
             android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaVelocidade"
             android:exported="false" />
         <activity
+            android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaDadosVelocidade"
+            android:exported="false" />
+        <activity
             android:name="com.caio.mendes.projetobtmandroid.Activitys.TelaEscolha"
             android:exported="false" />
         <activity

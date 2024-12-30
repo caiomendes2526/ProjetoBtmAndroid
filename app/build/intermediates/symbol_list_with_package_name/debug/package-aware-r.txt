@@ -3027,6 +3027,7 @@ drawable design_snackbar_background
 drawable forno
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable graficorpm
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3069,6 +3070,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable minivelocimetro
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3134,12 +3136,14 @@ drawable toast_success
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable usuario
+drawable velocidade
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
 id ListViewDados
+id ListViewDadosVelocidade
 id ListViewEquipamento
 id ListViewUltimaTemp
 id META
@@ -3240,6 +3244,7 @@ id bounceEnd
 id bounceStart
 id btnAlarme
 id btnBuscar
+id btnGraficoRpm
 id btnLogar
 id btnOffSet
 id btnTemperatura
@@ -3381,6 +3386,7 @@ id itemData
 id itemEquipamento
 id itemSensor
 id itemTemperatura
+id itemVelocidade
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3398,7 +3404,6 @@ id list_item
 id locale
 id ltr
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -3803,6 +3808,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_lista_dados
+layout item_lista_dados_velocidade
 layout item_lista_equipamento
 layout item_lista_ultima_temp
 layout m3_alert_dialog
@@ -3867,6 +3873,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tela_dados
+layout tela_dados_velocidade
 layout tela_equipamento
 layout tela_escolha
 layout tela_login

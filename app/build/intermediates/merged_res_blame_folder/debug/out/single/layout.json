@@ -28,6 +28,10 @@
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_nova_equipamentos.xml"
     },
     {
+        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/item_lista_dados_velocidade.xml",
+        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/item_lista_dados_velocidade.xml"
+    },
+    {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\item_lista_equipamento.xml",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_equipamento.xml"
     },
@@ -48,6 +52,10 @@
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_equipamento.xml"
     },
     {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\item_lista_dados_velocidade.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_dados_velocidade.xml"
+    },
+    {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\item_lista_dados.xml",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_dados.xml"
     },
@@ -56,7 +64,7 @@
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_principal.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_principal.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_principal.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_dados_velocidade.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_dados_velocidade.xml"
     }
 ]

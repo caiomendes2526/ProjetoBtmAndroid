@@ -18,6 +18,9 @@
             android:name=".Activitys.TelaVelocidade"
             android:exported="false" />
         <activity
+            android:name=".Activitys.TelaDadosVelocidade"
+            android:exported="false" />
+        <activity
             android:name=".Activitys.TelaEscolha"
             android:exported="false" />
         <activity

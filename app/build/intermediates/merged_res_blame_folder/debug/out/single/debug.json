@@ -8,6 +8,10 @@
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_novo_alarme.xml"
     },
     {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\layout_item_lista_dados_velocidade.xml.flat",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_dados_velocidade.xml"
+    },
+    {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\mipmap-xhdpi_logotipo.png.flat",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\mipmap-xhdpi\\logotipo.png"
     },
@@ -42,6 +46,14 @@
     {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.caio.mendes.projetobtmandroid.app-merged_res-50:/drawable_minivelocimetro.png.flat",
+        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/drawable/minivelocimetro.png"
+    },
+    {
+        "merged": "com.caio.mendes.projetobtmandroid.app-merged_res-50:/layout_item_lista_dados_velocidade.xml.flat",
+        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/item_lista_dados_velocidade.xml"
     },
     {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\mipmap-hdpi_logotipo_round.png.flat",
@@ -96,10 +108,6 @@
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_velocidade.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-merged_res-50:/layout_tela_principal.xml.flat",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_principal.xml"
-    },
-    {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\layout_tela_escolha.xml.flat",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_escolha.xml"
     },
@@ -130,6 +138,10 @@
     {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\drawable_graficorpm.png.flat",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\drawable\\graficorpm.png"
     },
     {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\mipmap-hdpi_logotipo.png.flat",
@@ -244,6 +256,10 @@
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\mipmap-xxhdpi\\logo.png"
     },
     {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\drawable_velocidade.png.flat",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\drawable\\velocidade.png"
+    },
+    {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\layout_tela_temperatura.xml.flat",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_temperatura.xml"
     },
@@ -314,6 +330,10 @@
     {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\mipmap-xxhdpi_logotipo_round.png.flat",
         "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\mipmap-xxhdpi\\logotipo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\layout_tela_dados_velocidade.xml.flat",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_dados_velocidade.xml"
     },
     {
         "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-merged_res-50:\\drawable-v24_alarmeativado.png.flat",

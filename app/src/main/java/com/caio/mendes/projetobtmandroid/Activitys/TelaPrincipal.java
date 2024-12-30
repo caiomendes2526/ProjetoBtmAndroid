@@ -57,7 +57,4 @@ public class TelaPrincipal extends AppCompatActivity {
 
     }
 
-
-
-
 }

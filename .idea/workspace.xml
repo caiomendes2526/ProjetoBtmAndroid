@@ -5,6 +5,16 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_lista_dados_velocidade.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/tela_dados_velocidade.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/tela_equipamento.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -21,6 +31,11 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/tela_off_set.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/tela_principal.xml">
         <config>
           <theme>@style/AppTheme</theme>
         </config>
@@ -45,6 +60,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fdce2aa-1193-4068-bd34-ae36a1896b50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaDadosVelocidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/ListarDados/ListarAdapterDadosVelocidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/ListarDados/ListarDadosVelocidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/graficorpm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/minivelocimetro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/velocidade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lista_dados_velocidade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/tela_dados_velocidade.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -54,218 +77,105 @@
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaEscolhaBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaEscolhaBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaVelocidadeBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaVelocidadeBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/tela_escolha-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/tela_escolha-layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/tela_escolha-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/tela_escolha-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.caio.mendes.projetobtmandroid-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.caio.mendes.projetobtmandroid-binding_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/tela_principal-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/tela_principal-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/tela_velocidade-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/tela_velocidade-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/tela_principal-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/tela_principal-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/tela_velocidade-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_package/debug/out/tela_velocidade-layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h320dp-port-v13/values-h320dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-port/values-port.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v17/values-v17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v18/values-v18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v22/values-v22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v25/values-v25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v26/values-v26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v28/values-v28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v31/values-v31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/custom_toast.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/item_lista_dados.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/item_lista_equipamento.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/item_lista_ultima_temp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_dados.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_equipamento.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_escolha.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_escolha.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_nova_equipamentos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_novo_alarme.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_off_set.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_principal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_temperatura.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir/layout/tela_velocidade.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/custom_toast.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/item_lista_dados.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/item_lista_equipamento.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/item_lista_ultima_temp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_dados.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_equipamento.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_escolha.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_escolha.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_nova_equipamentos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_novo_alarme.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_off_set.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_principal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_temperatura.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir/layout/tela_velocidade.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/databinding/TelaEscolhaBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/databinding/TelaEscolhaBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaVelocidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/Activitys/TelaVelocidade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/databinding/TelaVelocidadeBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/caio/mendes/projetobtmandroid/databinding/TelaVelocidadeBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_tela_escolha.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_tela_escolha.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_tela_principal.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_tela_principal.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_tela_velocidade.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/debug/layout_tela_velocidade.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/tela_escolha.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/tela_escolha.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/tela_principal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/tela_principal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/tela_velocidade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_res/debug/layout/tela_velocidade.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/1226f5f6a5a210d9299a8dfb159d74738f581df37b5c3541cb0f2be415311fa1_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/1226f5f6a5a210d9299a8dfb159d74738f581df37b5c3541cb0f2be415311fa1_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaEscolhaBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaEscolhaBinding.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/bf01ac85f2b520127b42e89f96cace6ad8256c27927895bc53a0c5776197050d_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/bf01ac85f2b520127b42e89f96cace6ad8256c27927895bc53a0c5776197050d_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaVelocidade.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/Activitys/TelaVelocidade.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaVelocidadeBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/caio/mendes/projetobtmandroid/databinding/TelaVelocidadeBinding.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$1.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$2.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$3.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolha$1.class.uniqueId5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolha.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/CustomToastBinding.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ItemListaDadosBinding.class.uniqueId37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ItemListaEquipamentoBinding.class.uniqueId22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ItemListaUltimaTempBinding.class.uniqueId23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ListarAdapterDados.class.uniqueId24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ListarAdapterEquipamento.class.uniqueId29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/ListarAdapterUltimaTemp.class.uniqueId26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaDados$1.class.uniqueId13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaDados$2.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaDados.class.uniqueId31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaDadosBinding.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$1.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$2.class.uniqueId12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$3.class.uniqueId40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento$4.class.uniqueId21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamento.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEquipamentoBinding.class.uniqueId39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolha$1.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolha$2.class.uniqueId30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolha$3.class.uniqueId20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolha.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaEscolhaBinding.class.uniqueId14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaLogin$1$1.class.uniqueId17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaLogin$1.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaLogin$2.class.uniqueId41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaLogin.class.uniqueId45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaLoginBinding.class.uniqueId32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaNovaEquipamentosBinding.class.uniqueId43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaNovoAlarme$1.class.uniqueId27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaNovoAlarme$2.class.uniqueId46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaNovoAlarme$3.class.uniqueId15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaNovoAlarme.class.uniqueId18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaNovoAlarmeBinding.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaOffSet$1.class.uniqueId42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaOffSet$2.class.uniqueId25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaOffSet$3.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaOffSet.class.uniqueId36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaOffSetBinding.class.uniqueId44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaPrincipal$1.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaPrincipal$2.class.uniqueId28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaPrincipal$3.class.uniqueId19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaPrincipal.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaPrincipalBinding.class.uniqueId33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaTemperatura$1.class.uniqueId34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaTemperatura$2.class.uniqueId16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaTemperatura.class.uniqueId38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/TelaTemperaturaBinding.class.uniqueId35" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaEquipamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaEscolha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tela_escolha.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tela_escolha.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaVelocidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/caio/mendes/projetobtmandroid/Activitys/TelaVelocidade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tela_principal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tela_principal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tela_velocidade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tela_velocidade.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,25 +217,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Usuario/Documents/GitHub/Projeto_Start_Temp_Android/app/src/main/res/drawable&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/caiom/Documents/GitHub&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/caiom/OneDrive/Documentos/GitHub/ProjetoBtmAndroid/app/src/main/res/drawable",
+    "last_opened_file_path": "C:/Users/caiom/OneDrive/Documentos/GitHub/ProjetoBtmAndroid/app/src/main/res/drawable",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
@@ -349,6 +259,7 @@
       <recent name="com.caio.mendes.tratamentotermico.Activitys" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.caio.mendes.projetobtmandroid.ListarDados" />
       <recent name="com.caio.mendes.projetobtmandroid.Activitys" />
       <recent name="com.caio.mendes.tratamentotermico.ListarDados" />
     </key>

@@ -26,7 +26,7 @@ public class TelaLogin extends AppCompatActivity {
 
     private Button btnLogar;
     private EditText editSenhaLogar;
-    private String minhasenha;
+    public static String minhasenha;
     public static String Nf_alta;
     public static String Nf_baixa;
     public static String Cliente;

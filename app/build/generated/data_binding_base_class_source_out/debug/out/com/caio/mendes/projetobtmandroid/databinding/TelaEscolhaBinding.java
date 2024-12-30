@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -25,11 +26,20 @@ public final class TelaEscolhaBinding implements ViewBinding {
   @NonNull
   public final Button btnVelocidade;
 
+  @NonNull
+  public final TextView txtDataHora;
+
+  @NonNull
+  public final TextView txtEquipamento;
+
   private TelaEscolhaBinding(@NonNull LinearLayout rootView, @NonNull Button btnTemperatura,
-      @NonNull Button btnVelocidade) {
+      @NonNull Button btnVelocidade, @NonNull TextView txtDataHora,
+      @NonNull TextView txtEquipamento) {
     this.rootView = rootView;
     this.btnTemperatura = btnTemperatura;
     this.btnVelocidade = btnVelocidade;
+    this.txtDataHora = txtDataHora;
+    this.txtEquipamento = txtEquipamento;
   }
 
   @Override
@@ -71,7 +81,20 @@ public final class TelaEscolhaBinding implements ViewBinding {
         break missingId;
       }
 
-      return new TelaEscolhaBinding((LinearLayout) rootView, btnTemperatura, btnVelocidade);
+      id = R.id.txtData_Hora;
+      TextView txtDataHora = ViewBindings.findChildViewById(rootView, id);
+      if (txtDataHora == null) {
+        break missingId;
+      }
+
+      id = R.id.txtEquipamento;
+      TextView txtEquipamento = ViewBindings.findChildViewById(rootView, id);
+      if (txtEquipamento == null) {
+        break missingId;
+      }
+
+      return new TelaEscolhaBinding((LinearLayout) rootView, btnTemperatura, btnVelocidade,
+          txtDataHora, txtEquipamento);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

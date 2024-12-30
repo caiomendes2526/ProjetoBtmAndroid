@@ -74,6 +74,8 @@ id txtAlarmeAlta
 id txtAlarmeBaixa
 id txtDataFinal
 id txtDataInicial
+id txtData_Hora
+id txtEquipamento
 id txtOffSet
 id txtSensores
 id txt_message

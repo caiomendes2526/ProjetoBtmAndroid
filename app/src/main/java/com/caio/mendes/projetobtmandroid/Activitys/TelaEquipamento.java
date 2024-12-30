@@ -2,6 +2,8 @@ package com.caio.mendes.projetobtmandroid.Activitys;
 
 import static com.caio.mendes.projetobtmandroid.Activitys.TelaLogin.Nf_alta;
 import static com.caio.mendes.projetobtmandroid.Activitys.TelaLogin.Nf_baixa;
+import static com.caio.mendes.projetobtmandroid.Activitys.TelaLogin.minhasenha;
+import static com.caio.mendes.projetobtmandroid.Activitys.TelaTemperatura.Sensores;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -15,6 +17,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.caio.mendes.projetobtmandroid.ListarDados.ListarAdapterEquipamento;
 import com.caio.mendes.projetobtmandroid.ListarDados.ListarEquipamento;
@@ -118,35 +121,65 @@ public class TelaEquipamento extends AppCompatActivity {
                     if (condicao.equals("1")) {
                         condicao = "0";
                         gravarCondicao();
-                        FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_alta);
-                        FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_baixa);
+                      //  FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_alta);
+                      //  FirebaseMessaging.getInstance().unsubscribeFromTopic(Nf_baixa);
 
                         fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.vermelho)));
                         fab_add_equipamento.setTextColor(Color.WHITE);
                         fab_add_equipamento.setText("ALARME DESATIVADO");
+                        condicaoAlarme();
 
                     } else if (condicao.equals("0")) {
                         condicao = "1";
                         gravarCondicao();
-                        FirebaseMessaging.getInstance().subscribeToTopic(Nf_alta);
-                        FirebaseMessaging.getInstance().subscribeToTopic(Nf_baixa);
+                     //   FirebaseMessaging.getInstance().subscribeToTopic(Nf_alta);
+                      //  FirebaseMessaging.getInstance().subscribeToTopic(Nf_baixa);
                         fab_add_equipamento.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(getApplicationContext(), R.color.verde)));
                         fab_add_equipamento.setTextColor(Color.BLACK);
                         fab_add_equipamento.setText("ALARME ATIVADO");
+                        condicaoAlarme();
 
                     }
 
-
                 }
-
-
 
                 return false;
             }
         });
-
-
     }
+
+    private void condicaoAlarme() {
+
+        try {
+            String URL = moduloConexao.HOST + "/AlterarCondicaoAlarme.php";
+
+            Ion.with(TelaEquipamento.this)
+                    .load(URL)
+                    .setBodyParameter("condicao", condicao)
+                    .setBodyParameter("senha", minhasenha)
+                    .asJsonObject()
+                    .setCallback(new FutureCallback<JsonObject>() {
+                        @Override
+                        public void onCompleted(Exception e, JsonObject result) {
+
+                            if (result != null) {
+
+                                String RETORNO = result.get("UPDATE").getAsString();
+
+                                if (RETORNO.equals("ERRO")) {
+                                    Toast.makeText(TelaEquipamento.this, "ERRO AO ALTERAR A CONDIÇÃO",
+                                            Toast.LENGTH_LONG).show();
+
+                                }
+                            }
+                        }
+                    });
+
+        } catch (Exception erro) {
+
+        }
+    }
+
 
     private void ListarEquipamento() {
         try {

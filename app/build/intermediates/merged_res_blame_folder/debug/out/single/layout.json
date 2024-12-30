@@ -1,58 +1,62 @@
 [
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_velocidade.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_velocidade.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\item_lista_ultima_temp.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_ultima_temp.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/item_lista_dados.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/item_lista_dados.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_temperatura.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_temperatura.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_temperatura.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_temperatura.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_velocidade.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_velocidade.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_nova_equipamentos.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_nova_equipamentos.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_novo_alarme.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_novo_alarme.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_novo_alarme.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_novo_alarme.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_off_set.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_off_set.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_escolha.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_escolha.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_escolha.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_escolha.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_dados.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_dados.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_nova_equipamentos.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_nova_equipamentos.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_equipamento.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_equipamento.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\item_lista_equipamento.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_equipamento.xml"
     },
     {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/item_lista_ultima_temp.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/item_lista_ultima_temp.xml"
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_login.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\custom_toast.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\custom_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_dados.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_dados.xml"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_equipamento.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_equipamento.xml"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\item_lista_dados.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\item_lista_dados.xml"
+    },
+    {
+        "merged": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:\\layout\\tela_principal.xml",
+        "source": "C:\\Users\\caiom\\.gradle\\daemon\\8.0.2\\com.caio.mendes.projetobtmandroid.app-main-52:\\layout\\tela_principal.xml"
     },
     {
         "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_principal.xml",
         "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_principal.xml"
-    },
-    {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/custom_toast.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/custom_toast.xml"
-    },
-    {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/item_lista_equipamento.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/item_lista_equipamento.xml"
-    },
-    {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_off_set.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_off_set.xml"
-    },
-    {
-        "merged": "com.caio.mendes.projetobtmandroid.app-mergeDebugResources-49:/layout/tela_login.xml",
-        "source": "com.caio.mendes.projetobtmandroid.app-main-52:/layout/tela_login.xml"
     }
 ]
